@@ -1,0 +1,26 @@
+К               PREP
+тому            ADJF,Apro masc,sing,datv
+же              PRCL
+я               NPRO,1per sing,nomn
+не              PRCL
+выспалась       VERB,perf,intr femn,sing,past,indc
+и               CONJ
+на              PREP
+заседание       NOUN,inan,neut sing,accs
+кафедры         NOUN,inan,femn sing,gent
+плетусь         VERB,impf,intr sing,1per,pres,indc
+с               PREP
+тем             ADJF,Apro masc,sing,ablt
+же              PRCL
+энтузиазмом     NOUN,inan,masc sing,ablt
+,               PNCT
+который         ADJF,Apro inan,masc,sing,accs
+у               PREP
+меня            NPRO,1per sing,gent
+обычно          ADVB
+вызывает        VERB,impf,tran sing,3per,pres,indc
+поход           NOUN,inan,masc sing,nomn
+к               PREP
+зубному         ADJF masc,sing,datv
+врачу           NOUN,anim,masc sing,datv
+.               PNCT

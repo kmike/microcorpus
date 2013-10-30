@@ -1,0 +1,49 @@
+<td>
+    {%- if info["is_unknown"] -%}
+        <i class="fa fa-exclamation" title="несловарное слово"></i>
+    {% endif %}
+</td>
+<td>
+    {{ info["token"] }}
+</td>
+<td class="disambig-grammemes">
+    <div class="btn-group btn-group-xs">
+        {%- for gr in info["grammemes"]["univocal"] -%}
+            <button class="btn btn-primary ">{{ gr }}</button>
+        {% endfor %}
+    </div>
+
+    {%- for gr in info["grammemes"]["ambig"] -%}
+        <button class="btn btn-info btn-xs">{{ gr }}</button>
+    {% endfor %}
+
+    <div class="btn-group btn-group-xs">
+        {% for gr in info["grammemes"]["discarded"] %}
+            <button class="btn btn-default">{{ gr }}</button>
+        {% endfor %}
+    </div>
+</td>
+<td class="disambig-tags">
+    {%- for norm_form, tag, prob, orig, cls in info["tags"] -%}
+        <button class="btn btn-{{ cls }} btn-xs"
+{#                data-toggle="tooltip"#}
+                title="{{ norm_form }} {{ orig }}: {{ prob }}"
+                data-origname="{{ orig }}">
+            {% if not info["same_normal_forms"] %}{{ norm_form }}: {% endif %}{{ tag }}
+        </button>
+    {% endfor %}
+</td>
+<td>
+    {% if info["help_links"] %}
+        {% for name, url in info["help_links"].items() %}
+            <a href="{{ url }}">{{ name }}</a><br>
+        {% endfor %}
+    {% endif %}
+</td>
+<td>
+   <div class="disambig-controls">
+       <a href="{{ info["index"] }}/raw/" data-target="#disambigRawTagsModal" data-toggle="modal">
+           <i class="fa fa-ambulance" title="ручное редактирование"></i>
+       </a>
+   </div>
+</td>

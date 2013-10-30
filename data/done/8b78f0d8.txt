@@ -1,0 +1,33 @@
+Маниакальные    ADJF,Qual plur,nomn
+манипуляции     NOUN,inan,femn plur,nomn
+с               PREP
+программосодержащими ADJF plur,ablt
+журналами       NOUN,inan,masc plur,ablt
+и               CONJ
+ежедневные      ADJF,Qual plur,nomn
+скольжения      NOUN,inan,neut plur,nomn
+по              PREP
+интернету       NOUN,inan,masc sing,datv
+в               PREP
+поисках         NOUN,inan,masc plur,loct
+телепрограммы   NOUN,inan,femn sing,gent
+и               CONJ
+анонсов         NOUN,inan,masc plur,gent
+—               PNCT
+привычное       ADJF,Qual neut,sing,nomn
+занятие         NOUN,inan,neut sing,nomn
+многих          NPRO plur,gent
+,               PNCT
+в               PREP
+том             ADJF,Apro neut,sing,loct
+числе           NOUN,inan,neut sing,loct
+вполне          ADVB
+адекватных      ADJF,Qual plur,gent
+,               PNCT
+умных           ADJF,Qual plur,gent
+,               PNCT
+даже            PRCL
+аналитически    ADVB
+настроенных     PRTF,perf,tran,past,pssv plur,gent
+индивидов       NOUN,anim,masc plur,gent
+.               PNCT

@@ -1,0 +1,29 @@
+В               PREP
+Триполи         NOUN,inan,masc,Sgtm,Fixd,Geox sing,loct
+также           CONJ
+считают         VERB,impf,tran plur,3per,pres,indc
+,               PNCT
+что             CONJ
+в               PREP
+течение         NOUN,inan,neut sing,accs
+трёх            NUMR gent
+месяцев         NOUN,inan,masc plur,gent
+может           VERB,impf,intr sing,3per,pres,indc
+отказать        INFN,perf,intr
+электростанция  NOUN,inan,femn sing,nomn
+,               PNCT
+расположенная   PRTF,perf,tran,past,pssv femn,sing,nomn
+на              PREP
+территории      NOUN,inan,femn sing,loct
+повстанцев      NOUN,anim,masc plur,gent
+и               CONJ
+снабжающая      PRTF,impf,tran,pres,actv femn,sing,nomn
+завод           NOUN,inan,masc sing,accs
+,               PNCT
+обеспечивающий  PRTF,impf,tran,pres,actv inan,masc,sing,accs
+70              NUMB
+%               PNCT
+населения       NOUN,inan,neut sing,gent
+страны          NOUN,inan,femn sing,gent
+водой           NOUN,inan,femn sing,ablt
+.               PNCT

@@ -1,0 +1,7 @@
+Поразительное   ADJF,Qual neut,sing,nomn
+разнообразие    NOUN,inan,neut sing,nomn
+ландшафтов      NOUN,inan,masc plur,gent
+царит           VERB,impf,intr sing,3per,pres,indc
+на              PREP
+берегу          NOUN,inan,masc sing,loc2
+.               PNCT

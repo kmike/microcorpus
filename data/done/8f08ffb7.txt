@@ -1,0 +1,40 @@
+Но              CONJ
+независимая     ADJF,Qual femn,sing,nomn
+пресса          NOUN,inan,femn sing,nomn
+всегда          ADVB
+и               CONJ
+везде           ADVB
+сталкивается    VERB,impf,intr sing,3per,pres,indc
+с               PREP
+сопротивлением  NOUN,inan,neut sing,ablt
+властей         NOUN,inan,femn plur,gent
+и               CONJ
+она             NPRO,femn,3per sing,nomn
+должна          ADJS femn,sing
+выбрать         INFN,perf,tran
+для             PREP
+себя            NPRO sing,gent
+:               PNCT
+либо            CONJ
+она             NPRO,femn,3per sing,nomn
+будет           VERB,impf,intr sing,3per,futr,indc
+преодолевать    INFN,impf,tran
+это             ADJF,Apro neut,sing,accs
+сопротивление   NOUN,inan,neut sing,accs
+и               CONJ
+оставаться      INFN,impf,intr
+независимой     ADJF,Qual femn,sing,ablt
+,               PNCT
+либо            CONJ
+получать        INFN,impf,tran
+подачки         NOUN,inan,femn plur,accs
+от              PREP
+власти          NOUN,inan,femn sing,gent
+,               PNCT
+и               CONJ
+тогда           ADVB,Dmns
+забыть          INFN,perf,tran
+о               PREP
+своей           ADJF,Apro femn,sing,loct
+независимости   NOUN,inan,femn sing,loct
+.               PNCT

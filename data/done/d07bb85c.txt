@@ -1,0 +1,6 @@
+Так             CONJ
+что             CONJ
+часть           NOUN,inan,femn sing,nomn
+истории         NOUN,inan,femn sing,gent
+реальна         ADJS,Qual femn,sing
+.               PNCT

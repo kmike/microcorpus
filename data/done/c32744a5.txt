@@ -1,0 +1,23 @@
+В               PREP
+стадах          NOUN,inan,neut plur,loct
+с               PREP
+лидером         NOUN,anim,masc sing,ablt
+может           VERB,impf,intr sing,3per,pres,indc
+не              PRCL
+быть            INFN,impf,intr
+строгой         ADJF,Qual femn,sing,gent
+иерархии        NOUN,inan,femn sing,gent
+между           PREP
+особями         NOUN,anim,femn plur,ablt
+,               PNCT
+а               CONJ
+в               PREP
+случае          NOUN,inan,masc sing,loct
+наличия         NOUN,inan,neut sing,gent
+иерархии        NOUN,inan,femn sing,gent
+лидер           NOUN,anim,masc sing,nomn
+не              PRCL
+всегда          ADVB
+является        VERB,impf,intr sing,3per,pres,indc
+доминантом      NOUN,anim,masc sing,ablt
+.               PNCT

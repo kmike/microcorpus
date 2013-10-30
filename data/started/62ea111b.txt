@@ -1,0 +1,32 @@
+Например        CONJ,Prnt
+,               PNCT
+«               PNCT
+Газпром         NOUN,inan,masc,Orgn sing,nomn
+»               PNCT
+,               PNCT
+вы              NPRO,2per plur,nomn
+знаете          VERB,impf,tran plur,2per,pres,indc
+,               PNCT
+вышел           VERB,perf,intr masc,sing,past,indc
+на              PREP
+третье          ADJF,Subx,Anum neut,sing,accs
+место           NOUN,inan,neut sing,accs
+в               PREP
+мире            NOUN,inan,neut sing,loct
+по              PREP
+капитализации   NOUN,inan,femn sing,datv
+среди           PREP
+крупнейших      ADJF,Supr,Qual plur,gent
+корпораций      NOUN,inan,femn plur,gent
+мира            NOUN,inan,masc sing,gent
+,               PNCT
+при             PREP
+этом            NPRO,neut sing,loct / ADJF,Apro masc,sing,loct / ADJF,Apro neut,sing,loct
+сохраняя        GRND,impf,tran pres
+достаточно      ADVB,Prdx
+низкие          ADJF,Qual inan,plur,accs
+тарифы          NOUN,inan,masc plur,accs
+для             PREP
+российских      ADJF plur,gent
+потребителей    NOUN,anim,masc plur,gent
+.               PNCT

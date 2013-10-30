@@ -1,0 +1,30 @@
+4               NUMB
+.               PNCT
+Правила         NOUN,inan,neut plur,nomn
+,               PNCT
+предусмотренные PRTF,perf,tran,past,pssv plur,nomn
+пунктами        NOUN,inan,masc plur,ablt
+2               NUMB
+и               CONJ
+3               NUMB
+настоящей       ADJF femn,sing,gent
+статьи          NOUN,inan,femn sing,gent
+,               PNCT
+не              PRCL
+применяются     VERB,impf,intr plur,3per,pres,indc
+в               PREP
+отношении       NOUN,inan,neut sing,loct
+тех             ADJF,Apro plur,gent
+налогов         NOUN,inan,masc plur,gent
+,               PNCT
+по              PREP
+которым         ADJF,Apro plur,datv
+налоговый       ADJF masc,sing,nomn
+период          NOUN,inan,masc sing,nomn
+устанавливается VERB,impf,intr sing,3per,pres,indc
+как             CONJ
+календарный     ADJF masc,sing,nomn
+месяц           NOUN,inan,masc sing,nomn
+или             CONJ
+квартал         NOUN,inan,masc sing,nomn
+.               PNCT

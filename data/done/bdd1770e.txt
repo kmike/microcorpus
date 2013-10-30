@@ -1,0 +1,31 @@
+Но              CONJ
+вот             PRCL
+что             NPRO,neut sing,nomn
+показательно    ADJS,Qual neut,sing
+:               PNCT
+Гандельсман     NOUN,anim,masc,Sgtm,Surn sing,nomn
+был             VERB,impf,intr masc,sing,past,indc
+далеко          ADVB,Prdx
+не              PRCL
+первым          ADJF,Anum masc,sing,ablt
+,               PNCT
+кто             NPRO,masc sing,nomn
+издевательски   ADVB
+процитировал    VERB,perf,tran masc,sing,past,indc
+«               PNCT
+Красавицу       NOUN,anim,femn sing,accs
+и               CONJ
+молодчину       NOUN,anim,femn,Ms-f sing,accs
+...             PNCT
+Валентину       NOUN,anim,femn,Name sing,accs
+»               PNCT
+поэта           NOUN,anim,masc sing,gent
+-               PNCT
+лауреата        NOUN,anim,masc sing,gent
+Кушнера         NOUN,anim,masc,Sgtm,Surn sing,gent
+,               PNCT
+а               CONJ
+как             ADVB
+минимум         ADVB
+третьим         ADJF,Subx,Anum masc,sing,ablt
+.               PNCT

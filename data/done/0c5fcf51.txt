@@ -1,0 +1,11 @@
+Тоже            ADVB
+и               CONJ
+холодно         ADVB,Prdx
+;               PNCT
+ну              PRCL
+да              CONJ
+ведь            CONJ
+и               CONJ
+октябрь         NOUN,inan,masc sing,nomn
+же              PRCL
+.               PNCT

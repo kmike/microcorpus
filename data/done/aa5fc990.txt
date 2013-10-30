@@ -1,0 +1,47 @@
+1.3             UNKN
+.               PNCT
+пункт           NOUN,inan,masc sing,accs
+6               NUMB
+Санитарных      ADJF,Qual anim,plur,accs
+правил          NOUN,inan,neut plur,gent
+и               CONJ
+норм            NOUN,inan,femn plur,gent
+2.1.2.12        UNKN
+-               PNCT
+19              NUMB
+-               PNCT
+2006            NUMB
+«               PNCT
+Гигиенические   ADJF plur,nomn
+требования      NOUN,inan,neut plur,nomn
+к               PREP
+устройству      NOUN,inan,neut sing,datv
+и               CONJ
+эксплуатации    NOUN,inan,femn sing,datv
+спортивных      ADJF,Qual plur,gent
+сооружений      NOUN,inan,neut plur,gent
+»               PNCT
+,               PNCT
+утвержденных    PRTF,perf,tran,past,pssv plur,gent
+постановлением  NOUN,inan,neut sing,ablt
+Главного        ADJF,Qual masc,sing,gent
+государственного ADJF masc,sing,gent
+санитарного     ADJF,Qual masc,sing,gent
+врача           NOUN,anim,masc sing,gent
+Республики      NOUN,inan,femn sing,gent
+Беларусь        NOUN,inan,femn,Sgtm,Geox sing,nomn
+от              PREP
+8               NUMB
+ноября          PNCT
+2006            NUMB
+г               NOUN,inan,masc,Fixd,Abbr sing,gent
+.               PNCT
+№               UNKN
+134             NUMB
+,               PNCT
+дополнить       INFN,perf,tran
+частью          NOUN,inan,femn sing,ablt
+второй          ADJF,Anum femn,sing,ablt
+следующего      ADJF neut,sing,gent
+содержания      NOUN,inan,neut sing,gent
+:               PNCT

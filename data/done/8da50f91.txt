@@ -1,0 +1,9 @@
+1.17.2          UNKN
+.               PNCT
+пункт           NOUN,inan,masc sing,accs
+14              NUMB
+изложить        INFN,perf,tran
+в               PREP
+следующей       ADJF femn,sing,loct
+редакции        NOUN,inan,femn sing,loct
+:               PNCT

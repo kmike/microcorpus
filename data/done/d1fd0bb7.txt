@@ -1,0 +1,5 @@
+Образование     NOUN,inan,neut sing,nomn
+чрезвычайных    ADJF plur,gent
+судов           NOUN,inan,masc plur,gent
+запрещается     VERB,impf,intr sing,3per,pres,indc
+.               PNCT

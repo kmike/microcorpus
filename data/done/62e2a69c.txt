@@ -1,0 +1,10 @@
+Химии           NOUN,inan,femn sing,datv
+она             NPRO,femn,3per sing,nomn
+учила           VERB,impf,tran femn,sing,past,indc
+великолепно     ADVB
+(               PNCT
+я               NPRO,1per sing,nomn
+про             PREP
+результат       NOUN,inan,masc sing,accs
+)               PNCT
+.               PNCT

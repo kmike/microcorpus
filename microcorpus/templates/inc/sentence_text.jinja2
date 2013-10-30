@@ -1,0 +1,17 @@
+{% if unambig_percent == 100 %}
+<form action="done" method="POST" xmlns="http://www.w3.org/1999/html">
+    <p class="btn-group pull-right">
+        <input type="submit" class="btn btn-success disambig-done" value="✓"/>
+    </p>
+</form>
+{% endif %}
+
+<p>
+{% for token, unambig in tokens %}
+    {% if unambig %}
+        <span data-token="{{ loop.index0 }}" class="text-primary">{{ token }}</span>
+    {% else %}
+        <span data-token="{{ loop.index0 }}" class="text-info ambig">{{ token }}</span>
+    {% endif %}
+{% endfor %}
+</p>

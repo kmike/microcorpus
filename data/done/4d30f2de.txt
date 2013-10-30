@@ -1,0 +1,26 @@
+Пока            ADVB
+Ткаченко        NOUN,anim,GNdr,Ms-f,Fixd,Surn sing,nomn
+катил           VERB,impf,tran masc,sing,past,indc
+до              PREP
+дому            NOUN,inan,masc sing,gen2
+коляску         NOUN,inan,femn sing,accs
+,               PNCT
+Тихон           NOUN,anim,masc,Name sing,nomn
+Александрович   NOUN,anim,masc,Patr sing,nomn
+рассматривал    VERB,impf,tran masc,sing,past,indc
+лепестки        NOUN,inan,masc plur,accs
+цветка          NOUN,inan,masc sing,gent
+,               PNCT
+сорванного      PRTF,perf,tran,past,pssv masc,sing,gent
+в               PREP
+саду            NOUN,inan,masc sing,loc2
+,               PNCT
+и               CONJ
+о               PREP
+чём-то          NPRO,neut sing,loct
+думал           VERB,impf,intr masc,sing,past,indc
+,               PNCT
+сосредоточенно  ADVB
+и               CONJ
+угрюмо          ADVB
+.               PNCT

@@ -1,0 +1,33 @@
+2               NUMB
+.               PNCT
+Преступление    NOUN,inan,neut sing,nomn
+признается      VERB,impf,intr sing,3per,pres,indc
+совершенным     PRTF,perf,tran,past,pssv neut,sing,ablt
+с               PREP
+прямым          ADJF,Qual masc,sing,ablt
+умыслом         NOUN,inan,masc sing,ablt
+,               PNCT
+если            CONJ
+лицо            NOUN,anim,neut sing,nomn
+осознавало      VERB,impf,tran neut,sing,past,indc
+общественную    ADJF femn,sing,accs
+опасность       NOUN,inan,femn sing,accs
+своих           ADJF,Apro plur,gent
+действий        NOUN,inan,neut plur,gent
+(               PNCT
+бездействия     NOUN,inan,neut sing,gent
+)               PNCT
+,               PNCT
+предвидело      VERB,impf,tran neut,sing,past,indc
+возможность     NOUN,inan,femn sing,accs
+или             CONJ
+неизбежность    NOUN,inan,femn sing,accs
+наступления     NOUN,inan,neut sing,gent
+общественно     ADJS neut,sing
+опасных         ADJF,Qual plur,gent
+последствий     NOUN,inan,neut plur,gent
+и               CONJ
+желало          VERB,impf,tran neut,sing,past,indc
+их              ADJF,Fixd,Apro neut,sing,gent
+наступления     NOUN,inan,neut sing,gent
+.               PNCT

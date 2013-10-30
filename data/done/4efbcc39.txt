@@ -1,0 +1,11 @@
+•               PNCT
+проверка        NOUN,inan,femn sing,nomn
+соответствия    NOUN,inan,neut sing,gent
+опытных         ADJF,Qual plur,gent
+данных          NOUN,inan,GNdr,Pltm plur,gent
+ранее           ADVB
+априорно        ADVB
+введенному      PRTF,perf,tran,past,pssv masc,sing,datv
+закону          NOUN,inan,masc sing,datv
+распределения   NOUN,inan,neut sing,gent
+.               PNCT

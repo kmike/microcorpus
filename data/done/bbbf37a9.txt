@@ -1,0 +1,6 @@
+Последние       ADJF inan,plur,accs
+зубы            NOUN,inan,masc plur,accs
+друг            NOUN,anim,masc sing,nomn
+другу           NOUN,anim,masc sing,datv
+повыбили        VERB,perf,tran plur,past,indc
+!               PNCT

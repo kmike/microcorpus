@@ -1,0 +1,18 @@
+Она             NPRO,femn,3per sing,nomn
+получает        VERB,impf,tran sing,3per,pres,indc
+трафик          NOUN,inan,masc sing,accs
+,               PNCT
+только          PRCL / CONJ
+напрямую        ADVB
+обмениваясь     GRND,impf,intr pres
+ссылками        NOUN,inan,femn plur,ablt
+с               PREP
+другими         ADJF,Apro plur,ablt
+изданиями       NOUN,inan,neut plur,ablt
+,               PNCT
+круг            NOUN,inan,masc sing,nomn
+которых         ADJF,Apro plur,gent
+оттачивался     VERB,impf,intr masc,sing,past,indc
+долгие          ADJF,Qual inan,plur,accs
+годы            NOUN,inan,masc plur,accs
+.               PNCT

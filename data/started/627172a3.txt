@@ -1,0 +1,33 @@
+Всё             ADJF,Apro neut,sing,nomn / ADJF,Apro neut,sing,accs / ADVB
+же              PRCL / CONJ
+забавно         ADJS,Qual neut,sing / ADVB,Prdx
+,               PNCT
+что             CONJ / NPRO,neut sing,accs / NPRO,neut sing,nomn / PRCL / ADVB,Ques
+годами          ADVB / NOUN,inan,masc plur,ablt
+никто           NPRO sing,nomn
+не              PRCL
+желал           VERB,impf,tran masc,sing,past,indc
+понять          INFN,perf,tran
+,               PNCT
+что             CONJ / NPRO,neut sing,accs / NPRO,neut sing,nomn / PRCL / ADVB,Ques
+Москва          NOUN,inan,femn,Sgtm,Geox sing,nomn
+—               PNCT
+субъект         NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / NOUN,anim,masc sing,nomn
+Федерации       NOUN,inan,femn sing,gent / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+и               CONJ / INTJ / PRCL
+что             CONJ / NPRO,neut sing,accs / NPRO,neut sing,nomn / PRCL / ADVB,Ques
+даже            PRCL / CONJ
+в               PREP
+эпоху           NOUN,inan,femn sing,accs
+выборов         NOUN,inan,masc plur,gent / NOUN,inan,GNdr,Pltm plur,gent
+москвичи        NOUN,inan,masc plur,nomn / NOUN,inan,masc plur,accs / NOUN,anim,masc plur,nomn
+избирали        VERB,impf,tran plur,past,indc
+именно          PRCL
+губернатора     NOUN,anim,masc sing,gent / NOUN,anim,masc sing,accs
+,               PNCT
+приватизировавшего PRTF,perf,tran,past,actv masc,sing,gent / PRTF,perf,tran,past,actv anim,masc,sing,accs / PRTF,perf,tran,past,actv neut,sing,gent / PRTF,impf,tran,past,actv masc,sing,gent / PRTF,impf,tran,past,actv anim,masc,sing,accs / PRTF,impf,tran,past,actv neut,sing,gent
+позицию         NOUN,inan,femn sing,accs
+главы           NOUN,anim,masc sing,gent / NOUN,inan,femn sing,gent / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs / NOUN,anim,masc plur,nomn
+регионального   ADJF neut,sing,gent / ADJF masc,sing,gent / ADJF anim,masc,sing,accs
+правительства   NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
+.               PNCT

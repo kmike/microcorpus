@@ -1,0 +1,26 @@
+Снова           ADVB
+анализируют     VERB,impf,tran plur,3per,pres,indc
+полученное      PRTF,perf,tran,past,pssv neut,sing,accs
+решение         NOUN,inan,neut sing,accs
+(               PNCT
+разработанный   PRTF,perf,tran,past,pssv inan,masc,sing,accs
+объект          NOUN,inan,masc sing,accs
+)               PNCT
+на              PREP
+потребность     NOUN,inan,femn sing,accs
+во              PREP Vpre
+вспомогательных ADJF plur,loct
+функциях        NOUN,inan,femn plur,loct
+следующего      ADJF masc,sing,gent
+уровня          NOUN,inan,masc sing,gent
+и               CONJ
+либо            CONJ
+заканчивают     VERB,impf,tran plur,3per,pres,indc
+разработку      NOUN,inan,femn sing,accs
+,               PNCT
+либо            CONJ
+решают          VERB,impf,tran plur,3per,pres,indc
+новую           ADJF,Qual femn,sing,accs
+дополнительную  ADJF femn,sing,accs
+задачу          NOUN,inan,femn sing,accs
+.               PNCT

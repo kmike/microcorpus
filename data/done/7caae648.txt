@@ -1,0 +1,8 @@
+Сейчас          ADVB
+она             NPRO,femn,3per sing,nomn
+помолвлена      PRTS,perf,past,pssv femn,sing
+с               PREP
+футболистом     NOUN,anim,masc sing,ablt
+Джейми          NOUN,anim,masc,Sgtm,Fixd,Name sing,ablt
+О’Хара          NOUN,anim,GNdr,Ms-f,Fixd,Surn sing,ablt
+.               PNCT

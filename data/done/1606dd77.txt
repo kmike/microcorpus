@@ -1,0 +1,15 @@
+Юнг             NOUN,anim,masc,Sgtm,Surn sing,nomn
+предполагает    VERB,impf,tran sing,3per,pres,indc
+,               PNCT
+что             CONJ
+большая         ADJF femn,sing,nomn
+его             ADJF,Fixd,Apro femn,sing,nomn
+часть           NOUN,inan,femn sing,nomn
+выбрасывается   VERB,impf,intr sing,3per,pres,indc
+за              PREP
+борт            NOUN,inan,masc sing,accs
+проплывающими   PRTF,impf,tran,pres,actv plur,ablt
+баржами         NOUN,inan,femn plur,ablt
+-               PNCT
+сухогрузами     NOUN,inan,masc plur,ablt
+.               PNCT

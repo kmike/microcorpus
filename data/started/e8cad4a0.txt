@@ -1,0 +1,25 @@
+А               CONJ
+скачок          NOUN,inan,masc sing,nomn
+цен             NOUN,inan,femn plur,gent
+на              PREP
+нефть           NOUN,inan,femn sing,accs
+с               PREP
+начала          VERB,perf,tran femn,sing,past,indc / NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
+2000-х          NOUN,anim,femn plur,gent / NOUN,anim,femn plur,accs / VERB,perf,intr masc,sing,past,indc / ADJS masc,sing / ADVB
+сам             ADJF,Apro masc,sing,nomn / ADJF,Apro inan,masc,sing,accs
+по              PREP
+себе            NPRO sing,datv / PRCL / NPRO sing,loct
+увеличил        VERB,perf,tran masc,sing,past,indc
+доходы          NOUN,inan,masc plur,accs
+россиян         NOUN,anim,masc plur,gent
+,               PNCT
+спровоцировав   GRND,perf,tran past
+тем             ADJF,Apro masc,sing,ablt
+самым           ADJF,Apro masc,sing,ablt
+и               CONJ
+потребительскую ADJF femn,sing,accs
+активность      NOUN,inan,femn sing,accs
+,               PNCT
+и               CONJ
+рождаемость     NOUN,inan,femn sing,accs
+.               PNCT

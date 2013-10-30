@@ -1,0 +1,9 @@
+В               PREP
+следующем       ADJF masc,sing,loct
+году            NOUN,inan,masc sing,loc2
+планируется     VERB,impf,intr sing,3per,pres,indc
+запуск          NOUN,inan,masc sing,nomn
+англоязычной    ADJF femn,sing,gent
+версии          NOUN,inan,femn sing,gent
+сайта           NOUN,inan,masc sing,gent
+.               PNCT

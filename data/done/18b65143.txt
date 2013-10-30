@@ -1,0 +1,8 @@
+Это             NPRO,neut sing,nomn
+будет           VERB,impf,intr sing,3per,futr,indc
+препятствовать  INFN,impf,intr
+широко          ADVB
+распространённому PRTF,perf,tran,past,pssv masc,sing,datv
+производству    NOUN,inan,neut sing,datv
+героина         NOUN,inan,masc sing,gent
+.               PNCT

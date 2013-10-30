@@ -1,0 +1,9 @@
+Должен          ADJS masc,sing
+ли              PRCL
+он              NPRO,masc,3per sing,nomn
+уметь           INFN,impf,intr
+дирижировать    INFN,impf,intr
+,               PNCT
+как             CONJ
+Стравинский     NOUN,anim,masc,Sgtm,Surn sing,nomn
+?               PNCT

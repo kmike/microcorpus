@@ -1,0 +1,11 @@
+Москва          NOUN,inan,femn,Sgtm,Geox sing,nomn
+может           VERB,impf,intr sing,3per,pres,indc
+стать           INFN,perf,intr
+девятым         ADJF,Anum masc,sing,ablt
+федеральным     ADJF masc,sing,ablt
+«               PNCT
+суперокругом    NOUN,inan,masc sing,ablt
+»               PNCT
+с               PREP
+особым          ADJF neut,sing,ablt
+статусом        NOUN,inan,masc sing,ablt

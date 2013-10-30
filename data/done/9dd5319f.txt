@@ -1,0 +1,10 @@
+Об              PREP Vpre
+этом            NPRO,neut sing,loct
+заявил          VERB,perf,tran masc,sing,past,indc
+глава           NOUN,anim,masc sing,nomn
+российского     ADJF neut,sing,gent
+финансового     ADJF neut,sing,gent
+ведомства       NOUN,inan,neut sing,gent
+Алексей         NOUN,anim,masc,Name sing,nomn
+Кудрин          NOUN,anim,masc,Sgtm,Surn sing,nomn
+.               PNCT

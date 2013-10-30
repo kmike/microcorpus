@@ -1,0 +1,33 @@
+3               NUMB
+.               PNCT
+Обязанности     NOUN,inan,femn plur,nomn
+,               PNCT
+предусмотренные ADJF plur,nomn
+пунктом         NOUN,inan,masc sing,ablt
+1               NUMB
+настоящей       ADJF femn,sing,gent
+статьи          NOUN,inan,femn sing,gent
+,               PNCT
+не              PRCL
+возлагаются     VERB,impf,intr plur,3per,pres,indc
+на              PREP
+лиц             NOUN,anim,neut plur,accs
+,               PNCT
+находившихся    PRTF,impf,intr,past,actv anim,plur,accs
+под             PREP
+опекой          NOUN,inan,femn sing,ablt
+(               PNCT
+попечительством NOUN,inan,neut sing,ablt
+)               PNCT
+,               PNCT
+или             CONJ
+на              PREP
+лиц             NOUN,anim,neut plur,accs
+,               PNCT
+находившихся    PRTF,impf,intr,past,actv anim,plur,accs
+на              PREP
+воспитании      NOUN,inan,neut sing,loct
+в               PREP
+приемных        ADJF,Qual plur,loct
+семьях          NOUN,inan,femn plur,loct
+.               PNCT

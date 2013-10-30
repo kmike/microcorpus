@@ -1,0 +1,4 @@
+Лондонские      ADJF plur,nomn
+автобусы        NOUN,inan,masc plur,nomn
+станут          VERB,perf,intr plur,3per,futr,indc
+гибридными      ADJF,Qual plur,ablt

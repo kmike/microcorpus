@@ -1,0 +1,26 @@
+Роман           NOUN,anim,masc,Name sing,nomn / NOUN,anim,masc,Sgtm,Surn sing,nomn / NOUN,anim,femn,Sgtm,Fixd,Surn sing,nomn / NOUN,anim,femn,Sgtm,Fixd,Surn sing,gent / NOUN,anim,femn,Sgtm,Fixd,Surn sing,datv / NOUN,anim,femn,Sgtm,Fixd,Surn sing,accs / NOUN,anim,femn,Sgtm,Fixd,Surn sing,ablt / NOUN,anim,femn,Sgtm,Fixd,Surn sing,loct / NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / NOUN,anim,femn,Name plur,gent / NOUN,anim,femn,Name plur,accs
+был             VERB,impf,intr masc,sing,past,indc
+у               PREP / INTJ
+нас             NPRO,1per plur,gent / NPRO,1per plur,accs / NPRO,1per plur,loct
+переведен       PRTS,perf,past,pssv masc,sing
+в               PREP
+1963-м          NOUN,inan,masc,Fixd sing,nomn / NOUN,inan,masc,Fixd sing,gent / NOUN,inan,masc,Fixd sing,ablt / NOUN,inan,masc,Fixd sing,datv / NOUN,inan,masc,Fixd sing,accs / NOUN,inan,masc,Fixd sing,loct / NOUN,inan,masc,Fixd plur,nomn / NOUN,inan,masc,Fixd plur,gent / NOUN,inan,masc,Fixd plur,datv / NOUN,inan,masc,Fixd plur,accs / NOUN,inan,masc,Fixd plur,ablt / NOUN,inan,masc,Fixd plur,loct
+,               PNCT
+Дёблин          NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / NOUN,anim,femn,Name plur,gent / NOUN,anim,femn,Name plur,accs / NOUN,anim,masc,Sgtm,Surn sing,nomn
+симпатизировал  VERB,impf,intr masc,sing,past,indc
+Восточной       ADJF,Qual femn,sing,gent / ADJF,Qual femn,sing,loct / ADJF,Qual femn,sing,datv / ADJF,Qual femn,sing,ablt
+Германии        NOUN,inan,femn,Sgtm,Geox sing,gent / NOUN,inan,femn,Sgtm,Geox sing,loct / NOUN,inan,femn,Sgtm,Geox sing,datv / NOUN,inan,masc sing,loct / NOUN,inan,masc plur,nomn / NOUN,inan,masc plur,accs
+и               CONJ / INTJ / PRCL
+поддерживал     VERB,impf,tran masc,sing,past,indc
+отношения       NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
+с               PREP
+культурными     ADJF,Qual plur,ablt
+деятелями       NOUN,anim,masc plur,ablt
+ГДР             NOUN,inan,femn,Fixd,Geox sing,nomn / NOUN,inan,femn,Fixd,Geox sing,gent / NOUN,inan,femn,Fixd,Geox sing,datv / NOUN,inan,femn,Fixd,Geox sing,accs / NOUN,inan,femn,Fixd,Geox sing,ablt / NOUN,inan,femn,Fixd,Geox sing,loct / NOUN,inan,femn,Fixd,Geox plur,nomn / NOUN,inan,femn,Fixd,Geox plur,gent / NOUN,inan,femn,Fixd,Geox plur,datv / NOUN,inan,femn,Fixd,Geox plur,accs / NOUN,inan,femn,Fixd,Geox plur,ablt / NOUN,inan,femn,Fixd,Geox plur,loct
+,               PNCT
+следовательно   CONJ,Prnt
+,               PNCT
+был             VERB,impf,intr masc,sing,past,indc
+идеологически   ADVB / NOUN,inan,masc,Geox plur,nomn / NOUN,inan,masc,Geox plur,accs / NOUN,inan,femn sing,gent / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs / NOUN,anim,femn,Name sing,gent / NOUN,anim,femn,Name plur,nomn
+приемлем        ADJS,Qual masc,sing
+.               PNCT

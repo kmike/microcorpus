@@ -1,0 +1,44 @@
+.btn-primary {
+    cursor: default;
+}
+
+.stickdiv {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 50;
+    background-color: #ffffff;
+    padding-bottom: 0;
+}
+
+.token-hlt {
+    text-decoration: underline;
+}
+/*.stickdiv .sentence-text {*/
+    /*border-color: rgb(31, 44, 57);*/
+    /*border-bottom: 3px;*/
+/*}*/
+
+/*.stickdiv .sentence-progressbar{*/
+    /*display: none;*/
+/*}*/
+
+/*.stickdiv .sentence-navigation{*/
+    /*display: none;*/
+/*}*/
+
+
+.table .disambig-controls {
+    display: none;
+}
+
+.table tr:hover .disambig-controls {
+    display: block;
+}
+
+body.modal-open {
+    margin-right: 0;
+}

@@ -1,0 +1,37 @@
+Известно        CONJ,Prnt
+,               PNCT
+что             CONJ
+если            CONJ
+осадконакопление NOUN,inan,neut sing,nomn
+,               PNCT
+а               CONJ
+также           CONJ
+уплотнение      NOUN,inan,neut sing,nomn
+отложений       NOUN,inan,neut plur,gent
+происходит      VERB,impf,intr sing,3per,pres,indc
+в               PREP
+соответствии    NOUN,inan,neut sing,loct
+с               PREP
+кривой          NOUN,inan,femn sing,ablt
+«               PNCT
+Нормального     ADJF,Qual neut,sing,gent
+уплотнения      NOUN,inan,neut sing,gent
+глин            NOUN,inan,femn plur,gent
+»               PNCT
+,               PNCT
+то              CONJ
+в               PREP
+пластах         NOUN,inan,masc plur,loct
+осадочной       ADJF,Qual femn,sing,gent
+толщи           NOUN,inan,femn sing,gent
+устанавливаются VERB,impf,intr plur,3per,pres,indc
+нормальные      ADJF,Qual plur,nomn
+давления        NOUN,inan,neut plur,nomn
+,               PNCT
+не              PRCL
+превышающие     PRTF,impf,tran,pres,actv plur,nomn
+условные        ADJF,Qual inan,plur,accs
+гидростатические ADJF inan,plur,accs
+давления        NOUN,inan,neut plur,accs
+Pу              UNKN
+.               PNCT

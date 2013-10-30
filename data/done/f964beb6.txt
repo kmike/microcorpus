@@ -1,0 +1,13 @@
+Однако          CONJ,Prnt
+,               PNCT
+в               PREP
+подавляющем     PRTF,impf,tran,pres,actv neut,sing,loct
+большинстве     NOUN,inan,neut,Sgtm sing,loct
+случаев         NOUN,inan,masc plur,gent
+при             PREP
+аутсорсинге     NOUN,inan,masc sing,loct
+заказчик        NOUN,anim,masc sing,nomn
+платит          VERB,impf,tran sing,3per,pres,indc
+за              PREP
+объём           NOUN,inan,masc sing,accs
+.               PNCT

@@ -1,0 +1,14 @@
+Можно           PRED,pres
+смотреть        INFN,impf,tran
+,               PNCT
+как             CONJ
+граф            NOUN,inan,masc sing,nomn
+связей          NOUN,inan,femn plur,gent
+коррелирует     VERB,impf,intr sing,3per,pres,indc
+с               PREP
+интересами      NOUN,inan,masc plur,ablt
+/               PNCT
+школами         NOUN,inan,femn plur,ablt
+/               PNCT
+работами        NOUN,inan,femn plur,ablt
+.               PNCT

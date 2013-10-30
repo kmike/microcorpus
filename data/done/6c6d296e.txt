@@ -1,0 +1,9 @@
+Строительство   NOUN,inan,neut sing,nomn
+моста           NOUN,inan,masc sing,gent
+было            VERB,impf,intr neut,sing,past,indc
+начато          PRTS,perf,past,pssv neut,sing
+в               PREP
+марте           NOUN,inan,masc sing,loct
+1868            NUMB
+года            NOUN,inan,masc sing,gent
+.               PNCT

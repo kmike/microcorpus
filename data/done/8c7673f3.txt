@@ -1,0 +1,4 @@
+Волленгаупт     NOUN,anim,masc,Sgtm,Surn sing,nomn
+,               PNCT
+Герман          NOUN,anim,masc,Name sing,nomn
+Адольф          NOUN,anim,masc,Name sing,nomn

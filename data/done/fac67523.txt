@@ -1,0 +1,13 @@
+Да              CONJ
+ещё             PRCL
+и               CONJ
+стесняться      INFN,impf,intr
+,               PNCT
+что             CONJ
+она             NPRO,femn,3per sing,nomn
+кое-что         NPRO,neut sing,accs
+знает           VERB,impf,tran sing,3per,pres,indc
+о               PREP
+своих           ADJF,Apro plur,loct
+пользователях   NOUN,anim,masc plur,loct
+.               PNCT

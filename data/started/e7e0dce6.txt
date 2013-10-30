@@ -1,0 +1,95 @@
+3               NUMB
+.               PNCT
+Иностранные     ADJF plur,nomn
+граждане        NOUN,anim,masc plur,nomn
+и               CONJ
+лица            NOUN,anim,neut plur,nomn
+без             PREP
+гражданства     NOUN,inan,neut sing,gent
+,               PNCT
+не              PRCL
+проживающие     PRTF,impf,intr,pres,actv plur,nomn
+постоянно       ADVB
+в               PREP
+Российской      ADJF femn,sing,loct
+Федерации       NOUN,inan,femn sing,loct
+,               PNCT
+совершившие     PRTF,perf,tran,past,actv plur,nomn
+преступление    NOUN,inan,neut sing,accs
+вне             PREP
+пределов        NOUN,inan,masc plur,gent
+Российской      ADJF femn,sing,gent
+Федерации       NOUN,inan,femn sing,gent
+,               PNCT
+подлежат        VERB,impf,intr plur,3per,pres,indc
+уголовной       ADJF,Qual femn,sing,datv
+ответственности NOUN,inan,femn sing,datv
+по              PREP
+настоящему      ADJF masc,sing,datv
+Кодексу         NOUN,inan,masc sing,datv
+в               PREP
+случаях         NOUN,inan,masc plur,loct
+,               PNCT
+если            CONJ
+преступление    NOUN,inan,neut sing,nomn
+направлено      PRTS,perf,past,pssv neut,sing
+против          PREP
+интересов       NOUN,inan,masc plur,gent
+Российской      ADJF femn,sing,gent
+Федерации       NOUN,inan,femn sing,gent
+либо            CONJ
+гражданина      NOUN,anim,masc sing,gent
+Российской      ADJF femn,sing,gent
+Федерации       NOUN,inan,femn sing,gent
+или             CONJ
+постоянно       ADVB
+проживающего    PRTF,impf,intr,pres,actv neut,sing,gent
+в               PREP
+Российской      ADJF femn,sing,loct
+Федерации       NOUN,inan,femn sing,loct
+лица            NOUN,anim,neut sing,gent
+без             PREP
+гражданства     NOUN,inan,neut sing,gent
+,               PNCT
+а               CONJ
+также           CONJ
+в               PREP
+случаях         NOUN,inan,masc plur,loct
+,               PNCT
+предусмотренных ADJF plur,gent / ADJF anim,plur,accs / ADJF plur,loct / PRTF,perf,tran,past,pssv plur,gent / PRTF,perf,tran,past,pssv anim,plur,accs / PRTF,perf,tran,past,pssv plur,loct
+международным   ADJF plur,datv / ADJF masc,sing,ablt / ADJF neut,sing,ablt
+договором       NOUN,inan,masc sing,ablt
+Российской      ADJF femn,sing,gent / ADJF femn,sing,ablt / ADJF femn,sing,loct / ADJF femn,sing,datv
+Федерации       NOUN,inan,femn sing,gent / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+,               PNCT
+если            CONJ
+иностранные     ADJF plur,nomn / ADJF inan,plur,accs
+граждане        NOUN,anim,masc plur,nomn
+и               CONJ / INTJ / PRCL
+лица            NOUN,anim,neut plur,nomn / NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs / NOUN,anim,neut sing,gent
+без             PREP
+гражданства     NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
+,               PNCT
+не              PRCL
+проживающие     PRTF,impf,intr,pres,actv plur,nomn / PRTF,impf,intr,pres,actv inan,plur,accs / PRTF,impf,tran,pres,actv plur,nomn / PRTF,impf,tran,pres,actv inan,plur,accs
+постоянно       ADVB / ADJS,Qual neut,sing
+в               PREP
+Российской      ADJF femn,sing,gent / ADJF femn,sing,ablt / ADJF femn,sing,loct / ADJF femn,sing,datv
+Федерации       NOUN,inan,femn sing,gent / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+,               PNCT
+не              PRCL
+были            VERB,impf,intr plur,past,indc / NOUN,inan,femn sing,gent / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+осуждены        PRTS,perf,past,pssv plur
+в               PREP
+иностранном     ADJF masc,sing,loct / ADJF neut,sing,loct
+государстве     NOUN,inan,neut sing,loct
+и               CONJ
+привлекаются    VERB,impf,intr plur,3per,pres,indc
+к               PREP
+уголовной       ADJF,Qual femn,sing,datv / ADJF,Qual femn,sing,gent / ADJF,Qual femn,sing,ablt / ADJF,Qual femn,sing,loct
+ответственности NOUN,inan,femn sing,gent / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+на              PREP
+территории      NOUN,inan,femn sing,gent / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+Российской      ADJF femn,sing,gent / ADJF femn,sing,ablt / ADJF femn,sing,loct / ADJF femn,sing,datv
+Федерации       NOUN,inan,femn sing,gent / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+.               PNCT

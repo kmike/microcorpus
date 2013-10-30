@@ -1,0 +1,13 @@
+В               PREP
+начале          NOUN,inan,neut sing,loct
+студенты        NOUN,anim,masc plur,nomn
+знакомятся      VERB,impf,intr plur,3per,pres,indc
+с               PREP
+применением     NOUN,inan,neut sing,ablt
+компьютерных    ADJF plur,gent
+систем          NOUN,inan,femn plur,gent
+в               PREP
+гуманитарных    ADJF plur,loct
+исследованиях   NOUN,inan,neut plur,loct
+вообще          ADVB
+.               PNCT

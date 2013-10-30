@@ -1,0 +1,7 @@
+Электричество   NOUN,inan,neut sing,nomn
+от              PREP
+солнца          NOUN,inan,neut sing,gent
+,               PNCT
+газ             NOUN,inan,masc sing,nomn
+баллонный       ADJF,Qual masc,sing,nomn
+.               PNCT

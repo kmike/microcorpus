@@ -1,0 +1,6 @@
+Перед           PREP
+границей        NOUN,inan,femn sing,ablt
+:               PNCT
+заполняем       VERB,impf,tran plur,1per,pres,indc
+миграционную    ADJF femn,sing,accs
+карту           NOUN,inan,femn sing,accs

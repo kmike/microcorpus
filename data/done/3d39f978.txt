@@ -1,0 +1,5 @@
+Власть          NOUN,inan,femn sing,nomn
+даже            PRCL
+не              PRCL
+почешется       VERB,perf,intr sing,3per,futr,indc
+.               PNCT

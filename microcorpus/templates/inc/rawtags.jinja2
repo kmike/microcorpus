@@ -1,0 +1,23 @@
+<!-- Modal -->
+<div class="modal-dialog">
+    <form class="modal-content form-horizontal"
+          action="{{ url_for("token_raw_tag", sentence_name=sentence_name, token_index=token_index) }}"
+          data-tokenid={{ token_index }} method="POST">
+        <div class="modal-header">
+            <h4>Введите правильный тег для токена <i>{{ token }}</i></h4>
+        </div>
+        <div class="modal-body">
+            <p>
+                Можно вставить тег от
+                <a href="{{ url_for("pymorphy2_parse") }}" target="_blank">похожего</a>
+                слова.
+            </p>
+            <input id="tag" tabindex="0" class="form-control" type="text"
+                   name="tag" placeholder="тег латиницей, в формате pymorphy2">
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+            <input type="submit" class="btn btn-primary" value="Применить">
+        </div>
+    </form>
+</div><!-- /.modal-dialog -->

@@ -1,0 +1,4 @@
+Перелома        NOUN,inan,masc sing,gent
+нет             PRCL
+.               PNCT
+»               PNCT

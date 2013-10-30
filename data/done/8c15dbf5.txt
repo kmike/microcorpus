@@ -1,0 +1,26 @@
+В               PREP
+эпизоде         NOUN,inan,masc sing,loct
+высмеивалась    VERB,impf,intr femn,sing,past,indc
+преданность     NOUN,inan,femn sing,nomn
+Вулфа           NOUN,anim,masc,Name sing,gent
+к               PREP
+белым           ADJF,Qual plur,datv
+пиджакам        NOUN,inan,masc plur,datv
+—               PNCT
+испачканный     PRTF,perf,tran,past,pssv masc,sing,nomn
+шоколадом       NOUN,inan,masc sing,ablt
+,               PNCT
+писатель        NOUN,anim,masc sing,nomn
+незамедлительно ADVB
+снимает         VERB,impf,tran sing,3per,pres,indc
+его             NPRO,masc,3per sing,accs
+,               PNCT
+обнаруживая     GRND,impf,tran pres
+точно           ADVB
+такой           ADJF,Apro inan,masc,sing,accs
+же              PRCL
+,               PNCT
+надетый         PRTF,perf,tran,past,pssv inan,masc,sing,accs
+под             PREP
+ним             NPRO,masc,3per sing,ablt,Af-p
+.               PNCT

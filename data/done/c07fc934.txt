@@ -1,0 +1,19 @@
+Значительные    ADJF,Qual inan,plur,accs
+площади         NOUN,inan,femn plur,accs
+в               PREP
+пределах        NOUN,inan,masc plur,loct
+Бактрийской     ADJF femn,sing,gent
+равнины         NOUN,inan,femn sing,gent
+и               CONJ
+северных        ADJF,Qual plur,gent
+предгорий       NOUN,inan,neut plur,gent
+Гиндукуша       NOUN,inan,masc,Sgtm,Geox sing,gent
+занимают        VERB,impf,tran plur,3per,pres,indc
+осадочные       ADJF,Qual plur,nomn
+и               CONJ
+вулканогенно-осадочные ADJF,Qual plur,nomn
+комплексы       NOUN,inan,masc plur,nomn
+мезокайнозойского ADJF masc,sing,gent
+платформенного  ADJF masc,sing,gent
+чехла           NOUN,inan,masc sing,gent
+.               PNCT

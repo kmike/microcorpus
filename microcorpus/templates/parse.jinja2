@@ -1,0 +1,45 @@
+{% extends "base.jinja2" %}
+{% block title %}Разбор с помощью pymorphy2{% endblock %}
+
+{% block contents %}
+
+<div class="container">
+    <form class="form-horizontal" action="" method="GET">
+        <fieldset>
+            <div class="form-group">
+                <div class="col-lg-5">
+                    <input autofocus="yes" class="form-control" id="inputWord" placeholder="слово" type="text" name="w">
+                </div>
+                <button type="submit" class="btn btn-primary">Разобрать</button>
+            </div>
+        </fieldset>
+    </form>
+
+    {% for token, word_parses in parses %}
+        <h3>{{ token }}</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Оценка</th>
+                    <th>Тег (рус)</th>
+                    <th>Тег (лат)</th>
+                    <th>Нормальная форма</th>
+                    <th>Способ</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for p in word_parses %}
+                    <tr>
+                        <td>{{ p.score }}</td>
+                        <td>{{ tag_repr(p.tag) }}</td>
+                        <td>{{ p.tag }}</td>
+                        <td>{{ p.normal_form }}</td>
+                        <td>{{ p.methods_stack }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endfor %}
+</div>
+
+{% endblock %}

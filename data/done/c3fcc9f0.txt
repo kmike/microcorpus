@@ -1,0 +1,15 @@
+Интересно       ADVB,Prdx
+,               PNCT
+как             ADVB,Ques
+долго           ADVB
+скафандр        NOUN,inan,masc sing,nomn
+,               PNCT
+с               PREP
+передатчиком    NOUN,inan,masc sing,ablt
+за              PREP
+пазухой         NOUN,inan,femn sing,ablt
+,               PNCT
+продержится     VERB,perf,intr sing,3per,futr,indc
+на              PREP
+орбите          NOUN,inan,femn sing,loct
+?               PNCT

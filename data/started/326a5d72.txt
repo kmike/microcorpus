@@ -1,0 +1,17 @@
+—               PNCT
+Есть            INTJ / VERB,impf,intr sing,3per,pres,indc / VERB,impf,intr plur,3per,pres,indc,Infr / INFN,impf,tran
+пара            NOUN,inan,femn sing,nomn
+приятелей       NOUN,anim,masc plur,gent
+со              PREP Vpre
+школьных        ADJF,Qual plur,gent
+времен          NOUN,inan,neut plur,gent
+и               CONJ
+еще             ADVB
+несколько       NUMR nomn
+человек         NOUN,anim,masc plur,gent
+,               PNCT
+с               PREP
+которыми        ADJF,Apro plur,ablt
+я               NPRO,1per sing,nomn
+общаюсь         VERB,impf,intr sing,1per,pres,indc
+.               PNCT

@@ -1,0 +1,179 @@
+{% extends "base.jinja2" %}
+
+{% block title %}Предложение {{ name }}{% endblock %}
+
+{% block js %}
+    <script type="application/javascript">
+        $(document).ready(function(){
+            "use strict";
+
+            function updateText(){
+                $.get("progress/", function(response){
+                    var $progress = $('.disambig-progress');
+                    $progress.find(".progress-bar").css('width', response+'%');
+                    $progress.attr("title", "готово "+response+"%");
+                });
+                $(".sentence-text").load("text/");
+            }
+
+            $('#tokens-table').tooltip({
+                animation: false,
+                selector: " *[data-toggle]"
+            });
+
+            $('#tokens-table').on("click", "button", function(ev){
+                var $btn = $(this);
+                if ($btn.hasClass('btn-primary')) {
+                    return;
+                }
+                var tokenid = $btn.parents("tr").data("tokenid").toString();
+                var url = tokenid + '/';
+
+                var data;
+                if ($btn.parents(".disambig-grammemes").length){
+                    data = {'grammeme': $btn.text()};
+                }
+                else if ($btn.parents(".disambig-tags").length){
+                    data = {'tag': $btn.data("origname")};
+                }
+
+                $.post(url, data, function(response){
+                    $btn.parents("tr").html(response);
+                    updateText();
+                });
+            });
+
+            var modalRoot = $("#disambigRawTagsModal");
+            modalRoot.on("submit", "form", function(ev){
+                ev.preventDefault();
+                console.log(ev);
+                var form = $(this);
+                var tokenid = form.data("tokenid").toString();
+                $.post(
+                    form.attr("action"),
+                    form.serialize(),
+                    function(response){
+                        $("tr[data-tokenid='" +tokenid+ "']").html(response);
+                        updateText();
+                        $('#disambigRawTagsModal').modal('hide');
+                    }
+                );
+            });
+            modalRoot.on('hidden.bs.modal', function () {
+                $(this).data('bs.modal', null);
+            });
+
+            var s = $("#sentence-text");
+
+            function _token(tr){
+                return s.find("span[data-token='" + $(tr).data("tokenid") + "']");
+            }
+
+            $('#tokens-table').on("mouseenter", "tr", function(ev){
+                var token = _token(this);
+                // var cls = token.hasClass('ambig') ? 'label-info': 'label-primary';
+                // token.addClass('label '+cls).removeClass('text-primary text-info');
+                token.addClass('token-hlt');
+            });
+
+            $('#tokens-table').on("mouseleave", "tr", function(ev){
+                var token = _token(this);
+{#                var cls = token.hasClass('ambig') ? 'text-info': 'text-primary';#}
+                token.removeClass('token-hlt');
+            });
+
+            // stickt sentence text
+            var pos = s.position();
+            $(window).scroll(function() {
+                var windowpos = $(window).scrollTop();
+                if (windowpos >= pos.top-19) {  // 19 == .well padding
+                    var h = s.height() + 19;
+                    s.addClass("stickdiv well");
+                    $("#tokens-table").parents(".table").css("margin-top", h);
+                } else {
+                    s.removeClass("stickdiv well");
+                    $("#tokens-table").parents(".table").css("margin-top", "");
+                }
+            });
+
+        });
+    </script>
+{% endblock %}
+
+{% macro sent_info(text=True) %}
+    <div class="row">
+        <div class="col-xs-2 sentence-navigation" style="width: auto">
+            <p class="btn-group">
+                <a href="?prev" class="btn btn-success">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a href="?next" class="btn btn-success">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </p>
+        </div>
+        {% if text %}
+            <div class="col-xs-10 sentence-text">
+                {% include "inc/sentence_text.jinja2" %}
+            </div>
+        {% endif %}
+    </div>
+{% endmacro %}
+
+{% macro progressbar() %}
+    <div class="row sentence-progressbar">
+        <div class="col-lg-12">
+            <div class="progress disambig-progress" title="готово {{ unambig_percent }}%">
+                <div class="progress-bar" style="width:{{ unambig_percent }}%"></div>
+            </div>
+        </div>
+    </div>
+{% endmacro %}
+
+{% block contents %}
+
+<div class="modal" id="disambigRawTagsModal" tabindex="-1" role="dialog" aria-hidden="true"></div>
+
+<div class="container">
+    <div id="sentence-text" class="container">
+        {{ sent_info() }}
+        {{ progressbar() }}
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Токен</th>
+                        <th>Граммемы</th>
+                        <th>
+                            <span>Разборы</span>
+                            <span class="pull-right">
+                                <span class="label label-primary">правильно</span>
+                                <span class="label label-info">под вопросом</span>
+                                <span class="label label-default">не подходит</span>
+                            </span>
+                        </th>
+                        <th>Подсказки</th>
+                        <th><i class="fa fa-cogs"></i></th>
+                    </tr>
+                </thead>
+                <tbody id="tokens-table">
+                    {% for info in sent %}
+                        <tr id="token-{{ info["index"] }}" data-tokenid="{{ info["index"] }}">
+                            {% include "inc/token_row.jinja2" %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+{#    {{ progressbar() }}#}
+{#    {{ sent_info() }}#}
+
+</div>
+{% endblock %}

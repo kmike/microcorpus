@@ -1,0 +1,26 @@
+Роспись         NOUN,inan,femn sing,nomn
+в               PREP
+древнем         ADJF,Qual masc,sing,loct
+соборе          NOUN,inan,masc sing,loct
+была            VERB,impf,intr femn,sing,past,indc
+создана         PRTS,perf,past,pssv femn,sing
+по              PREP
+заказу          NOUN,inan,masc sing,datv
+великого        ADJF masc,sing,gent
+Московского     ADJF masc,sing,gent
+князя           NOUN,anim,masc sing,gent
+Василия         NOUN,anim,masc,Name sing,gent
+Дмитриевича     NOUN,anim,masc,Patr sing,gent
+,               PNCT
+сына            NOUN,anim,masc sing,gent
+Дмитрия         NOUN,anim,masc,Name sing,gent
+Донского        NOUN,anim,masc,Sgtm,Surn sing,gent
+,               PNCT
+и               CONJ
+явилась         VERB,perf,intr femn,sing,past,indc
+самым           ADJF,Apro neut,sing,ablt
+масштабным      ADJF,Qual neut,sing,ablt
+произведением   NOUN,inan,neut sing,ablt
+той             ADJF,Apro femn,sing,gent
+эпохи           NOUN,inan,femn sing,gent
+.               PNCT

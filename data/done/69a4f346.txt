@@ -1,0 +1,9 @@
+1               NUMB
+.               PNCT
+Швеция          NOUN,inan,femn,Sgtm,Geox sing,nomn
+—               PNCT
+Чемпион         NOUN,anim,masc sing,nomn
+мира            NOUN,inan,masc sing,gent
+,               PNCT
+золотые         ADJF plur,nomn
+медали          NOUN,inan,femn plur,nomn

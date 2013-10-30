@@ -1,0 +1,32 @@
+«               PNCT
+Это             PRCL / NPRO,neut sing,nomn / NPRO,neut sing,accs / ADJF,Apro neut,sing,accs / ADJF,Apro neut,sing,nomn
+объект          NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs
+для             PREP / GRND,impf,tran pres
+компьютерной    ADJF femn,sing,gent / ADJF femn,sing,ablt / ADJF femn,sing,loct / ADJF femn,sing,datv
+науки           NOUN,inan,femn sing,gent / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+»               PNCT
+,               PNCT
+—               PNCT
+подумал         VERB,perf,intr masc,sing,past,indc
+Д               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / ADJS masc,sing / ADVB
+.               PNCT
+Э               INTJ
+.               PNCT
+Кнут            NOUN,inan,masc sing,accs / NOUN,inan,masc sing,nomn
+и               CONJ / INTJ / PRCL
+решил           VERB,perf,tran masc,sing,past,indc
+научить         INFN,perf,tran
+компьютер       NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs
+делать          INFN,impf,tran
+буквы           NOUN,inan,femn sing,gent / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+из              PREP / NOUN,anim,femn,Name plur,gent / NOUN,anim,femn,Name plur,accs
+точек           NOUN,inan,femn plur,gent
+такими          ADJF,Apro plur,ablt
+,               PNCT
+как             CONJ / ADVB,Ques / PRCL
+надо            PRED,pres / PREP Vpre
+,               PNCT
+то              CONJ / ADJF,Apro neut,sing,accs / PRCL / ADJF,Apro neut,sing,nomn
+есть            INTJ / VERB,impf,intr sing,3per,pres,indc / VERB,impf,intr plur,3per,pres,indc,Infr / INFN,impf,tran
+красивыми       ADJF,Qual plur,ablt
+.               PNCT

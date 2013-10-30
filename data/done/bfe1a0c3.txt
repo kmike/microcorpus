@@ -1,0 +1,16 @@
+Вот             PRCL
+«               PNCT
+Тайны           NOUN,inan,femn plur,nomn
+Алексиса        NOUN,anim,masc,Name sing,gent
+»               PNCT
+,               PNCT
+вот             PRCL
+«               PNCT
+Виктор          NOUN,anim,masc,Name sing,nomn
+,               PNCT
+или             CONJ
+Дитя            NOUN,anim,neut,Sgtm sing,nomn
+в               PREP
+лесу            NOUN,inan,masc sing,loc2
+»               PNCT
+:               PNCT

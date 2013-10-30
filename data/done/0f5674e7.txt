@@ -1,0 +1,22 @@
+Пожалуй         CONJ,Prnt
+,               PNCT
+трудно          ADVB,Prdx
+придумать       INFN,perf,tran
+более           ADVB
+консервативный  ADJF,Qual inan,masc,sing,accs
+и               CONJ
+осторожный      ADJF,Qual inan,masc,sing,accs
+подход          NOUN,inan,masc sing,accs
+:               PNCT
+ценность        NOUN,inan,femn sing,nomn
+акций           NOUN,inan,femn plur,gent
+целиком         ADVB
+определяется    VERB,impf,intr sing,3per,pres,indc
+размером        NOUN,inan,masc sing,ablt
+дивидендов      NOUN,inan,masc plur,gent
+,               PNCT
+которые         ADJF,Apro plur,nomn
+по              PREP
+ним             NPRO,3per plur,datv,Af-p
+выплачиваются   VERB,impf,intr plur,3per,pres,indc
+.               PNCT

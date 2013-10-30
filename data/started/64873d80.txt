@@ -1,0 +1,13 @@
+На              PREP
+первом          ADJF,Anum neut,sing,loct
+месте           NOUN,inan,neut sing,loct
+находится       VERB,impf,intr sing,3per,pres,indc
+Великобритания  NOUN,inan,femn,Sgtm,Geox sing,nomn
+,               PNCT
+ее              ADJF,Fixd,Apro plur,accs / ADJF,Fixd,Apro masc,sing,nomn / ADJF,Fixd,Apro masc,sing,gent / ADJF,Fixd,Apro masc,sing,datv / ADJF,Fixd,Apro masc,sing,accs / ADJF,Fixd,Apro masc,sing,ablt / ADJF,Fixd,Apro masc,sing,loct / ADJF,Fixd,Apro femn,sing,nomn / ADJF,Fixd,Apro femn,sing,gent / ADJF,Fixd,Apro femn,sing,datv / ADJF,Fixd,Apro femn,sing,accs / ADJF,Fixd,Apro femn,sing,ablt / ADJF,Fixd,Apro femn,sing,loct / ADJF,Fixd,Apro neut,sing,nomn / ADJF,Fixd,Apro neut,sing,gent / ADJF,Fixd,Apro neut,sing,datv / ADJF,Fixd,Apro neut,sing,accs / ADJF,Fixd,Apro neut,sing,ablt / ADJF,Fixd,Apro neut,sing,loct / ADJF,Fixd,Apro plur,nomn / ADJF,Fixd,Apro plur,gent / ADJF,Fixd,Apro plur,datv / ADJF,Fixd,Apro plur,ablt / ADJF,Fixd,Apro plur,loct
+показатель      NOUN,inan,masc sing,nomn
+—               PNCT
+29,3            UNKN
+млн             NOUN,inan,femn plur,gent
+человек         NOUN,anim,masc plur,gent / NOUN,anim,masc sing,nomn
+.               PNCT

@@ -1,0 +1,7 @@
+—               PNCT
+Здравствуйте    VERB,impf,intr plur,impr,excl
+,               PNCT
+хочу            VERB,impf,tran sing,1per,pres,indc
+квартиру        NOUN,inan,femn sing,accs
+купить          INFN,perf,tran
+.               PNCT

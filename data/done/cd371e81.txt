@@ -1,0 +1,17 @@
+Маничка         NOUN,anim,femn,Name sing,nomn
+,               PNCT
+точно           CONJ
+подавленная     PRTF,perf,tran,past,pssv femn,sing,nomn
+несправедливым  ADJF,Qual neut,sing,ablt
+отношением      NOUN,inan,neut sing,ablt
+учителя         NOUN,anim,masc sing,gent
+к               PREP
+ее              ADJF,Fixd,Apro plur,datv
+познаниям       NOUN,inan,neut plur,datv
+,               PNCT
+опустила        VERB,perf,tran femn,sing,past,indc
+голову          NOUN,inan,femn sing,accs
+и               CONJ
+кротко          ADVB
+ответила        VERB,perf,intr femn,sing,past,indc
+:               PNCT

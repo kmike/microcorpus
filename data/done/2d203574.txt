@@ -1,0 +1,5 @@
+—               PNCT
+Где             ADVB,Ques
+же              PRCL
+Вася            NOUN,anim,masc,Name sing,nomn
+?               PNCT

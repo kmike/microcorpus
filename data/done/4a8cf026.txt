@@ -1,0 +1,18 @@
+Отсутствие      NOUN,inan,neut sing,nomn
+метаболического ADJF masc,sing,gent
+ацидоза         NOUN,inan,masc sing,gent
+обусловлено     PRTS,perf,past,pssv neut,sing
+наличием        NOUN,inan,neut sing,ablt
+циркулирующего  PRTF,impf,intr,pres,actv masc,sing,gent
+в               PREP
+крови           NOUN,inan,femn sing,loct
+инсулина        NOUN,inan,masc sing,gent
+и               CONJ
+/               PNCT
+или             CONJ
+более           ADVB
+низкими         ADJF,Qual plur,ablt
+уровнями        NOUN,inan,masc plur,ablt
+контринсулиновых ADJF plur,gent
+гормонов        NOUN,inan,masc plur,gent
+.               PNCT

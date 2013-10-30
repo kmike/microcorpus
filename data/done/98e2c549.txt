@@ -1,0 +1,11 @@
+В               PREP
+Ксантене        NOUN,inan,masc,Geox sing,loct
+в               PREP
+римскую         ADJF femn,sing,accs
+эпоху           NOUN,inan,femn sing,accs
+были            VERB,impf,intr plur,past,indc
+расквартированы PRTS,perf,past,pssv plur
+два             NUMR masc,nomn
+римских         ADJF plur,gent
+легиона         NOUN,inan,masc sing,gent
+.               PNCT

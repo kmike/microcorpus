@@ -1,0 +1,33 @@
+Технологичность NOUN,inan,femn,Sgtm sing,nomn
+закладывается   VERB,impf,intr sing,3per,pres,indc
+в               PREP
+конструкцию     NOUN,inan,femn sing,accs
+при             PREP
+соответствующем ADJF neut,sing,loct
+назначении      NOUN,inan,neut sing,loct
+параметров      NOUN,inan,masc plur,gent
+деталей         NOUN,inan,femn plur,gent
+(               PNCT
+материала       NOUN,inan,masc sing,gent
+,               PNCT
+размеров        NOUN,inan,masc plur,gent
+и               CONJ
+их              ADJF,Fixd,Apro neut,sing,gent
+отклонений      NOUN,inan,neut plur,gent
+,               PNCT
+шероховатости   NOUN,inan,femn sing,gent
+и               CONJ
+т               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / ADJS,Qual masc,sing / ADVB / PRTS,perf,past,pssv masc,sing / VERB,perf,intr,Impe sing,futr,indc
+.               PNCT
+п               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / VERB,perf,intr masc,sing,past,indc / ADJS,Qual masc,sing
+.               PNCT
+)               PNCT
+,               PNCT
+форм            NOUN,inan,femn plur,gent
+и               CONJ
+взаимного       ADJF,Qual neut,sing,gent
+расположения    NOUN,inan,neut sing,gent
+поверхностей    NOUN,inan,femn plur,gent
+их              ADJF,Fixd,Apro plur,gent
+элементов       NOUN,inan,masc plur,gent
+.               PNCT

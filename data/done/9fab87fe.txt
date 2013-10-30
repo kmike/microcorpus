@@ -1,0 +1,15 @@
+Ведение         NOUN,inan,neut sing,nomn
+разработки      NOUN,inan,femn sing,gent
+последовательно ADVB
+от              PREP
+общих           ADJF plur,gent
+черт            NOUN,inan,femn plur,gent
+проектируемого  PRTF,impf,tran,pres,pssv masc,sing,gent
+объекта         NOUN,inan,masc sing,gent
+к               PREP
+детальным       ADJF,Qual plur,datv
+частным         ADJF,Qual plur,datv
+называется      VERB,impf,intr sing,3per,pres,indc
+нисходящим      ADJF neut,sing,ablt
+проектированием NOUN,inan,neut sing,ablt
+.               PNCT

@@ -1,0 +1,23 @@
+В               PREP
+1928            NUMB
+г               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / ADJS masc,sing / VERB,perf,tran masc,sing,past,indc / ADVB
+.               PNCT
+карьере         NOUN,inan,masc sing,loct / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct
+Малхолланда     NOUN,anim,femn,Name sing,nomn
+пришёл          VERB,perf,intr masc,sing,past,indc
+внезапный       ADJF,Qual masc,sing,nomn / ADJF,Qual inan,masc,sing,accs
+конец           NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs
+:               PNCT
+через           PREP
+несколько       ADVB / NUMR nomn / NUMR inan,accs
+часов           NOUN,inan,GNdr,Pltm plur,gent / NOUN,inan,masc plur,gent
+после           PREP / ADVB / NOUN,anim,masc sing,loct
+инспектирования NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
+им              NPRO,masc,3per sing,ablt / NPRO,3per plur,datv / NPRO,neut,3per sing,ablt
+дамбы           NOUN,inan,femn sing,gent / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
+св              GRND,impf,tran past / NOUN,anim,masc,Sgtm,Surn sing,nomn / ADJS,Qual masc,sing / ADJF,Poss masc,sing,nomn / ADJF,Poss inan,masc,sing,accs / ADVB
+.               PNCT
+Франциска       NOUN,anim,masc,Name sing,gent / NOUN,anim,masc,Name sing,accs
+её              NPRO,femn,3per sing,gent / NPRO,femn,3per sing,accs
+прорвало        VERB,perf,tran neut,sing,past,indc
+.               PNCT

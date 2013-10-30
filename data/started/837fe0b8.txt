@@ -1,0 +1,9 @@
+Он              NPRO,masc,3per sing,nomn
+просил          VERB,impf,tran masc,sing,past,indc
+у               PREP / INTJ
+вас             NPRO,2per plur,accs / NPRO,2per plur,gent / NPRO,2per plur,loct
+прощения        NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
+за              PREP
+ваши            ADJF,Apro plur,nomn / ADJF,Apro inan,plur,accs
+грехи           NOUN,inan,masc plur,accs / NOUN,inan,masc plur,nomn
+.               PNCT

@@ -1,0 +1,17 @@
+Врач            NOUN,anim,masc sing,nomn
+был             VERB,impf,intr masc,sing,past,indc
+унылый          ADJF,Qual masc,sing,nomn
+,               PNCT
+вислоухий       ADJF masc,sing,nomn
+и               CONJ
+такой           ADJF,Apro masc,sing,nomn
+худой           ADJF,Qual masc,sing,nomn
+,               PNCT
+что             CONJ
+видно           PRED,pres
+его             NPRO,masc,3per sing,gent
+было            VERB,impf,intr neut,sing,past,indc
+только          PRCL
+в               PREP
+профиль         NOUN,inan,masc sing,accs
+.               PNCT

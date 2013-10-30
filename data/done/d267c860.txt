@@ -1,0 +1,8 @@
+Мужика          NOUN,anim,masc sing,accs
+подергивало     VERB,impf,intr neut,sing,past,indc
+,               PNCT
+словно          CONJ
+лихорадка       NOUN,inan,femn sing,nomn
+его             NPRO,masc,3per sing,accs
+колотила        VERB,impf,tran femn,sing,past,indc
+.               PNCT

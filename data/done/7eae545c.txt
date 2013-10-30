@@ -1,0 +1,16 @@
+Шум             NOUN,inan,masc sing,nomn
+затих           VERB,perf,intr masc,sing,past,indc
+,               PNCT
+он              NPRO,masc,3per sing,nomn
+вышел           VERB,perf,intr masc,sing,past,indc
+на              PREP
+телеподмостки   NOUN,inan,GNdr,Pltm plur,accs
+—               PNCT
+и               CONJ
+стал            VERB,perf,intr masc,sing,past,indc
+валить          INFN,impf,tran
+людей           NOUN,anim,masc plur,accs
+в               PREP
+транс           NOUN,inan,masc sing,accs
+десятками       NOUN,inan,masc plur,ablt
+.               PNCT

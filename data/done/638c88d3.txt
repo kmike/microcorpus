@@ -1,0 +1,17 @@
+Смогут          VERB,perf,intr plur,3per,futr,indc
+ли              PRCL
+аудиторы        NOUN,anim,masc plur,nomn
+оправдать       INFN,perf,tran
+высокие         ADJF,Qual inan,plur,accs
+затраты         NOUN,inan,femn plur,accs
+на              PREP
+оплату          NOUN,inan,femn sing,accs
+труда           NOUN,inan,masc sing,gent
+топ-менеджеров  NOUN,anim,masc plur,gent
+ВВС             NOUN,inan,GNdr,Pltm,Fixd,Orgn plur,gent
+,               PNCT
+станет          VERB,perf,intr sing,3per,futr,indc
+ясно            ADVB,Prdx
+чуть            ADVB
+позже           COMP,Qual
+.               PNCT

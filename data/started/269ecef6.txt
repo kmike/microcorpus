@@ -1,0 +1,34 @@
+Перевести       INFN,perf,tran
+требования      NOUN,inan,neut plur,accs
+на              PREP
+язык            NOUN,inan,masc sing,accs
+предметной      ADJF,Qual femn,sing,gent
+области         NOUN,inan,femn sing,gent
+,               PNCT
+сформулировать  INFN,perf,tran
+задачу          NOUN,inan,femn sing,accs
+максимально     ADVB
+полно           ADVB,Prdx
+и               CONJ
+грамотно        ADVB
+,               PNCT
+обосновать      INFN,perf,tran
+необходимость   NOUN,inan,femn sing,accs
+ее              ADJF,Fixd,Apro neut,sing,gent
+решения         NOUN,inan,neut sing,gent
+,               PNCT
+т               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / ADJS,Qual masc,sing / ADVB / PRTS,perf,past,pssv masc,sing / VERB,perf,intr,Impe sing,futr,indc
+.               PNCT
+е               NOUN,inan,neut,Sgtm,Fixd sing,nomn / NOUN,inan,neut,Sgtm,Fixd sing,gent / NOUN,inan,neut,Sgtm,Fixd sing,ablt / NOUN,inan,neut,Sgtm,Fixd sing,accs / NOUN,inan,neut,Sgtm,Fixd sing,datv / NOUN,inan,neut,Sgtm,Fixd sing,loct
+.               PNCT
+сформулировать  INFN,perf,tran
+техническое     ADJF neut,sing,accs
+задание         NOUN,inan,neut sing,accs
+,               PNCT
+—               PNCT
+первый          ADJF,Anum masc,sing,nomn
+и               CONJ
+обязательный    ADJF masc,sing,nomn
+этап            NOUN,inan,masc sing,nomn
+работы          NOUN,inan,femn sing,gent
+.               PNCT

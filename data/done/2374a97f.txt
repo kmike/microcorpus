@@ -1,0 +1,14 @@
+Частота         NOUN,inan,femn sing,nomn
+возникновения   NOUN,inan,neut sing,gent
+гестационного   ADJF masc,sing,gent
+диабета         NOUN,inan,masc sing,gent
+среди           PREP
+беременных      ADJF,Qual plur,gent
+женщин          NOUN,anim,femn plur,gent
+составляет      VERB,impf,tran sing,3per,pres,indc
+примерно        ADVB
+2               NUMB
+—               PNCT
+5               NUMB
+%               PNCT
+.               PNCT

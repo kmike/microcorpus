@@ -1,0 +1,17 @@
+Однако          CONJ,Prnt
+,               PNCT
+в               PREP
+силу            ПР
+изначальной     ADJF femn,sing,gent
+экспериментальности NOUN,inan,femn,Sgtm sing,gent
+направления     NOUN,inan,neut sing,gent
+и               CONJ
+творческой      ADJF femn,sing,gent
+свободы         NOUN,inan,femn sing,gent
+,               PNCT
+некоторые       ADJF,Apro plur,nomn
+исполнители     NOUN,anim,masc plur,nomn
+расширяют       VERB,impf,tran plur,3per,pres,indc
+этот            ADJF,Apro inan,masc,sing,accs
+набор           NOUN,inan,masc sing,accs
+.               PNCT

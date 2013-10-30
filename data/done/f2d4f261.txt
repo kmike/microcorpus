@@ -1,0 +1,24 @@
+Эти             ADJF,Apro plur,nomn
+поездки         NOUN,inan,femn plur,nomn
+совершаются     VERB,impf,intr plur,3per,pres,indc
+иногда          ADVB
+нарочно         ADVB
+,               PNCT
+а               CONJ
+большей         ADJF femn,sing,ablt
+частью          NOUN,inan,femn sing,ablt
+–               PNCT
+одновременно    ADVB
+с               PREP
+поездками       NOUN,inan,femn plur,ablt
+к               PREP
+крещёным        ADJF plur,datv
+инородцам       NOUN,anim,masc plur,datv
+для             PREP
+пастырского     ADJF neut,sing,gent
+назидания       NOUN,inan,neut sing,gent
+их              NPRO,3per plur,accs
+и               CONJ
+требоисправления NOUN,inan,neut sing,gent
+»               PNCT
+,               PNCT

@@ -1,0 +1,16 @@
+Число           NOUN,inan,neut sing,nomn
+уникальных      ADJF,Qual plur,gent
+посетителей     NOUN,anim,masc plur,gent
+сайта           NOUN,inan,masc sing,gent
+газеты          NOUN,inan,femn sing,gent
+выросло         VERB,perf,intr neut,sing,past,indc
+в               PREP
+2               NUMB
+раза            NOUN,inan,masc sing,gent
+—               PNCT
+247,5           UNKN
+тыс             NOUN,inan,masc,Geox sing,nomn / NOUN,inan,masc,Geox sing,accs / ADJS,Qual masc,sing
+.               PNCT
+в               PREP
+месяц           NOUN,inan,masc sing,accs
+.               PNCT

@@ -1,0 +1,22 @@
+Если            CONJ
+брать           INFN,impf,tran
+в               PREP
+качестве        NOUN,inan,neut sing,loct
+примера         NOUN,inan,masc sing,gent
+музыку          NOUN,inan,femn sing,accs
+,               PNCT
+было            VERB,impf,intr neut,sing,past,indc
+бы              PRCL
+абсурдно        ADVB
+играть          INFN,impf,tran
+свадебные       ADJF,Qual inan,plur,accs
+мелодии         NOUN,inan,femn plur,accs
+на              PREP
+похоронах       NOUN,inan,GNdr,Pltm plur,loct
+или             CONJ
+сановнику       NOUN,anim,masc sing,datv
+использовать    INFN,impf,tran
+музыку          NOUN,inan,femn sing,accs
+императорского  ADJF masc,sing,gent
+двора           NOUN,inan,masc sing,gent
+.               PNCT

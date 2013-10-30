@@ -1,0 +1,6 @@
+ПУТИН           NOUN,anim,masc,Sgtm,Surn sing,nomn
+В               PREP
+.               PNCT
+В               PREP
+.               PNCT
+:               PNCT

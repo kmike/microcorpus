@@ -1,0 +1,16 @@
+И               CONJ
+кино            NOUN,inan,neut,Fixd sing,nomn
+,               PNCT
+нацеленное      PRTF,perf,tran,past,pssv neut,sing,nomn
+на              PREP
+извлечение      NOUN,inan,neut sing,accs
+чувств          NOUN,inan,neut plur,gent
+из              PREP
+зрителя         NOUN,anim,masc sing,gent
+,               PNCT
+наоборот        CONJ,Prnt
+,               PNCT
+все             ADJF,Apro neut,sing,accs
+чувства         NOUN,inan,neut plur,accs
+замораживает    VERB,impf,tran sing,3per,pres,indc
+.               PNCT

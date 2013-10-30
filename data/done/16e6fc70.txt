@@ -1,0 +1,19 @@
+Считающийся     PRTF,impf,intr,pres,actv masc,sing,nomn
+крупнейшим      ADJF,Supr,Qual masc,sing,ablt
+поисковым       ADJF masc,sing,ablt
+интернет-порталом NOUN,inan,masc sing,ablt
+в               PREP
+РФ              NOUN,inan,femn,Sgtm,Fixd,Abbr,Geox sing,loct
+"               PNCT
+Яндекс          NOUN,inan,masc sing,nomn
+"               PNCT
+официально      ADVB
+объявил         VERB,perf,tran masc,sing,past,indc
+о               PREP
+возможности     NOUN,inan,femn sing,loct
+пользованием    NOUN,inan,neut sing,ablt
+сайта           NOUN,inan,masc sing,gent
+на              PREP
+татарском       ADJF masc,sing,loct
+языке           NOUN,inan,masc sing,loct
+.               PNCT

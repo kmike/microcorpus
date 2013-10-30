@@ -1,0 +1,17 @@
+Ответ           NOUN,inan,masc sing,nomn
+на              PREP
+спорный         ADJF,Qual inan,masc,sing,accs
+вопрос          NOUN,inan,masc sing,accs
+почти           ADVB
+вековой         ADJF femn,sing,gent
+давности        NOUN,inan,femn sing,gent
+может           VERB,impf,intr sing,3per,pres,indc
+поставить       INFN,perf,tran
+точку           NOUN,inan,femn sing,accs
+в               PREP
+дипломатических ADJF plur,loct
+отношениях      NOUN,inan,neut plur,loct
+Турции          NOUN,inan,femn,Sgtm,Geox sing,gent
+и               CONJ
+США             NOUN,inan,GNdr,Pltm,Fixd,Geox plur,gent
+.               PNCT

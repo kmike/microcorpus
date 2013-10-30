@@ -1,0 +1,6 @@
+—               PNCT
+немного         ADVB
+огорчил         VERB,perf,tran masc,sing,past,indc
+группу          NOUN,inan,femn sing,accs
+Паладин         NOUN,anim,masc,Name sing,nomn
+.               PNCT

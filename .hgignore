@@ -1,0 +1,6 @@
+\.idea
+\.pyc$
+\.ipynb_checkpoints
+data/annot\.opcorpora\.xml
+data/corpus\.txt
+

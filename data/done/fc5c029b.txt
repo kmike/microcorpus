@@ -1,0 +1,10 @@
+Эта             ADJF,Apro femn,sing,nomn
+уверенность     NOUN,inan,femn sing,nomn
+тоже            CONJ
+чувствуется     VERB,impf,intr sing,3per,pres,indc
+читателем       NOUN,anim,masc sing,ablt
+и               CONJ
+тоже            CONJ
+привлекает      VERB,impf,tran sing,3per,pres,indc
+его             NPRO,masc,3per sing,accs
+.               PNCT

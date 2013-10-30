@@ -1,0 +1,10 @@
+Прокуратура     NOUN,inan,femn sing,nomn
+собирает        VERB,impf,tran sing,3per,pres,indc
+данные          NOUN,inan,GNdr,Pltm plur,accs
+о               PREP
+студентах       NOUN,anim,masc plur,loct
+,               PNCT
+участвующих     PRTF,impf,intr,pres,actv plur,loct
+в               PREP
+протестных      ADJF plur,loct
+акциях          NOUN,inan,femn plur,loct

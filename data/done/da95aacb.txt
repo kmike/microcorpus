@@ -1,0 +1,23 @@
+На              PREP
+не              PRCL
+государственном ADJF masc,sing,loct
+тоже            ADVB
+-               PNCT
+американские    ADJF plur,nomn
+военные         NOUN,anim,masc plur,nomn
+,               PNCT
+например        CONJ,Prnt
+,               PNCT
+интересуются    VERB,impf,intr plur,3per,pres,indc
+текстами        NOUN,inan,masc plur,ablt
+на              PREP
+арабском        ADJF masc,sing,loct
+,               PNCT
+китайском       ADJF masc,sing,loct
+и               CONJ
+русском         ADJF,Subx masc,sing,loct
+...             PNCT
+по              PREP
+очевидным       ADJF,Qual plur,datv
+причинам        NOUN,inan,femn plur,datv
+.               PNCT

@@ -1,0 +1,7 @@
+И               CONJ
+есть            VERB,impf,intr sing,3per,pres,indc
+риск            NOUN,inan,masc sing,nomn
+провонять       INFN,perf,tran
+бензином        NOUN,inan,masc sing,ablt
+снарягу         NOUN,inan,femn sing,accs
+.               PNCT

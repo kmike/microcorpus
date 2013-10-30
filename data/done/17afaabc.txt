@@ -1,0 +1,21 @@
+В               PREP
+августе         NOUN,inan,masc sing,loct
+2004            NUMB
+года            NOUN,inan,masc sing,gent
+83              NUMB
+-               PNCT
+летний          ADJF masc,sing,nomn
+ветеран         NOUN,anim,masc sing,nomn
+ВОВ             NOUN,inan,femn,Sgtm,Fixd,Abbr sing,gent
+Василий         NOUN,anim,masc,Name sing,nomn
+Кононов         NOUN,anim,masc,Sgtm,Surn sing,nomn
+решил           VERB,perf,tran masc,sing,past,indc
+подать          INFN,perf,tran
+иск             NOUN,inan,masc sing,accs
+в               PREP
+Европейский     ADJF inan,masc,sing,accs
+суд             NOUN,inan,masc sing,accs
+по              PREP
+правам          NOUN,inan,neut plur,datv
+человека        NOUN,anim,masc sing,gent
+.               PNCT

@@ -1,0 +1,21 @@
+При             PREP
+этом            NPRO,neut sing,loct
+взаимодействие  NOUN,inan,neut sing,nomn
+и               CONJ
+передача        NOUN,inan,femn sing,nomn
+нагрузок        NOUN,inan,femn plur,gent
+между           PREP
+телами          NOUN,inan,neut plur,ablt
+осуществляются  VERB,impf,intr plur,3per,pres,indc
+посредством     PREP
+геометрического ADJF neut,sing,gent
+(               PNCT
+контактного     ADJF,Qual neut,sing,gent
+)               PNCT
+или             CONJ
+силового        ADJF neut,sing,gent
+(               PNCT
+фрикционного    ADJF neut,sing,gent
+)               PNCT
+замыкания       NOUN,inan,neut sing,gent
+;               PNCT

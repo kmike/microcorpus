@@ -1,0 +1,7 @@
+—               PNCT
+Дыа             PRCL,Dist
+,               PNCT
+дыа             PRCL,Dist
+,               PNCT
+соглыасна       ADJS,Qual,Dist femn,sing
+,               PNCT

@@ -1,0 +1,24 @@
+Совместная      ADJF,Qual femn,sing,nomn
+ПРО             NOUN,inan,femn,Fixd,Abbr sing,nomn
+—               PNCT
+откровенно      ADVB
+искусственный   ADJF,Qual masc,sing,nomn
+,               PNCT
+чисто           ADVB
+политический    ADJF masc,sing,nomn
+проект          NOUN,inan,masc sing,nomn
+,               PNCT
+на              PREP
+его             ADJF,Fixd,Apro femn,sing,loct
+основе          NOUN,inan,femn sing,loct
+на              PREP
+самом           ADJF,Apro neut,sing,loct
+деле            NOUN,inan,neut sing,loct
+можно           PRED,pres
+не              PRCL
+столько         CONJ
+подружиться     INFN,perf,intr
+,               PNCT
+сколько         CONJ
+поссориться     INFN,perf,intr
+.               PNCT
