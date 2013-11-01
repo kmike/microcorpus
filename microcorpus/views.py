@@ -4,10 +4,12 @@ import random
 from flask import render_template, abort, request, redirect, url_for, g
 from microcorpus import app
 from microcorpus.storage import SentenceStorage
-from microcorpus import linguistic
+from microcorpus.linguistic import (ParseInfo, morph, tokenize, tag_lat2cyr,
+                                    grammeme_cyr2lat)
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data')
-storage = SentenceStorage(DATA_PATH, linguistic.morph)
+storage = SentenceStorage(DATA_PATH, morph)
+
 
 @app.route('/')
 def index():
@@ -17,9 +19,10 @@ def index():
 @app.route('/parse/')
 def pymorphy2_parse():
     words = request.args.get('w', '')
-    parses = [(w, linguistic.morph.parse(w)) for w in linguistic.tokenize(words)]
+    parses = [(w, morph.parse(w)) for w in tokenize(words)]
     return render_template('parse.jinja2', words=words, parses=parses,
-                           tag_repr=linguistic.tag_repr)
+                           tag_repr=tag_lat2cyr)
+
 
 @app.route('/random-task/')
 def sentence_random():
@@ -30,13 +33,15 @@ def sentence_random():
 @app.route('/started/<name>/')
 def sentence(name):
     sent = _started_sent_or_404(name)
-    prev, next = storage.prev_next_started(name)
-    if 'next' in request.args:
-        return redirect(url_for("sentence", name=next))
-    if 'prev' in request.args:
-        return redirect(url_for("sentence", name=prev))
 
-    sent_info = [_token_info(idx, token_row) for idx, token_row in enumerate(sent)]
+    prev_task, next_task = storage.prev_next_started(name)
+    if 'next' in request.args:
+        return redirect(url_for("sentence", name=next_task))
+    if 'prev' in request.args:
+        return redirect(url_for("sentence", name=prev_task))
+
+    sent_info = [_token_info_dict(idx, token_info)
+                 for idx, token_info in enumerate(sent)]
     tokens = _sent_tokens(sent)
 
     return render_template('sentence.jinja2',
@@ -46,11 +51,12 @@ def sentence(name):
         unambig_percent=_unambig_percent(tokens)
     )
 
+
 @app.route('/started/<name>/done', methods=["POST"])
 def sentence_done(name):
-    prev, next = storage.prev_next_started(name)
+    prev_task, next_task = storage.prev_next_started(name)
     storage.finish(name)
-    return redirect(url_for("sentence", name=next))
+    return redirect(url_for("sentence", name=next_task))
 
 
 @app.route('/started/<name>/progress/')
@@ -74,62 +80,45 @@ def token_tag(sentence_name, token_index):
         return abort(400)
 
     sent = _started_sent_or_404(sentence_name)
-    token_info = _token_info(token_index, sent[token_index])
+    token_info = sent[token_index]
 
     if request.method == 'GET':
-        return render_template('inc/token_row.jinja2', info=token_info)
+        token_info_dict = _token_info_dict(token_index, token_info)
+        return render_template('inc/token_row.jinja2', info=token_info_dict)
 
-    parsed_sent = [[token, tags] for token, tags, grammemes in sent]
+    if 'tag' in request.form:  # user selected a tag
+        token_info.select_tag(request.form['tag'])
 
-    if 'tag' in request.form:
-        proper_tag = request.form['tag']
-        parsed_sent[token_index][1] = [(proper_tag, '', SentenceStorage.UNIVOCAL)]
+    elif 'grammeme' in request.form:  # user selected a grammeme
+        gr = grammeme_cyr2lat(request.form['grammeme'])
+        token_info.select_grammeme(gr)
 
-    elif 'grammeme' in request.form:
-        gr = request.form['grammeme']
-
-        new_cls = None
-        if gr in token_info['grammemes'].get(SentenceStorage.DISCARDED, []):
-            new_cls = SentenceStorage.AMBIG
-
-        proper_grammeme = linguistic.grammeme_cyr2lat(gr)
-        token, tags = parsed_sent[token_index]
-
-        #pymorphy2_tags = set(t.grammemes for t in linguistic.morph.tag(token))
-
-        parsed_sent[token_index][1] = [
-            [tag, norm_form, new_cls or cls]
-            for tag, norm_form, cls in tags
-            if proper_grammeme in linguistic.tag2grammemes(tag)
-            #or linguistic.tag2grammemes(tag) not in pymorphy2_tags
-        ]
-
-    parsed_sent = _without_discarded_tags(parsed_sent)
-    storage.write_sent('started', sentence_name, parsed_sent)
-    return redirect(url_for("token_tag", sentence_name=sentence_name, token_index=token_index))
+    storage.write_sent('started', sentence_name, sent)
+    url = url_for("token_tag", sentence_name=sentence_name, token_index=token_index)
+    return redirect(url)
 
 
 @app.route('/started/<sentence_name>/<int:token_index>/raw/', methods=['POST', 'GET'])
 def token_raw_tag(sentence_name, token_index):
     sent = _started_sent_or_404(sentence_name)
-    parsed_sent = [[token, tags] for token, tags, grammemes in sent]
+    token_info = sent[token_index]
+    #parsed_sent = [[token, tags] for token, tags, grammemes in sent]
 
     if request.method == 'GET':
-        token = parsed_sent[token_index][0]
         return render_template('inc/rawtags.jinja2',
            sentence_name=sentence_name,
            token_index=token_index,
-           token=token,
+           token=token_info.token,
         )
 
     proper_tag = request.form['tag'].strip()
     if proper_tag:
-        parsed_sent[token_index][1] = [(proper_tag, '', SentenceStorage.UNIVOCAL)]
-        parsed_sent = _without_discarded_tags(parsed_sent)
-        storage.write_sent('started', sentence_name, parsed_sent)
+        token_info.select_tag(proper_tag)
+        storage.write_sent('started', sentence_name, sent)
 
     if request.is_xhr:
-        return redirect(url_for("token_tag", sentence_name=sentence_name, token_index=token_index))
+        url = url_for("token_tag", sentence_name=sentence_name, token_index=token_index)
+        return redirect(url)
 
     return redirect(url_for("sentence", name=sentence_name))
 
@@ -149,41 +138,39 @@ def inject_stats():
     return {'get_stats': get_stats}
 
 
-def _token_info(idx, token_row):
-    token, tags, grammemes = token_row
-    CSS_SUFFIXES = {
-        SentenceStorage.AMBIG: 'info',
-        SentenceStorage.UNIVOCAL: 'primary',
-        SentenceStorage.DISCARDED: 'default',
-    }
+CSS_SUFFIXES = {
+    ParseInfo.AMBIG: 'info',
+    ParseInfo.UNIVOCAL: 'primary',
+    ParseInfo.DISCARDED: 'default',
+}
 
-    ambig_grammemes = grammemes.get(SentenceStorage.AMBIG, set())
+
+def _token_info_dict(idx, token_info):
+    ambig_grammemes = token_info.grammeme_classes[ParseInfo.AMBIG]
     all_grammemes = set()
-    for gr in grammemes.values():
+    for gr in token_info.grammeme_classes.values():
         all_grammemes |= gr
-    help_links = _help_links(token, ambig_grammemes, all_grammemes)
-
-    same_normal_forms = False
-    if len(tags) and all(tags[0][1] == t[1] for t in tags):
-        same_normal_forms = True
+    help_links = _help_links(token_info.token, ambig_grammemes, all_grammemes)
 
     res = {
         'index': idx,
-        'token': token,
-        'same_normal_forms': same_normal_forms,
+        'token': token_info.token,
+        'same_normal_forms': token_info.all_normal_forms_are_equal(),
         'tags': [
             (
-                norm_form,
-                linguistic.tag_repr(tag),
-                linguistic.tag_prob(token, tag),
-                tag,
-                CSS_SUFFIXES[cls],
+                p.normal_form,
+                tag_lat2cyr(p.tag),
+                token_info.tag_probability(p.tag),
+                p.tag,
+                CSS_SUFFIXES[p.state],
             )
-            for tag, norm_form, cls in tags
+            for p in token_info.parses
         ],
-        'grammemes': {cls: sorted(linguistic.tag_repr(g) for g in gr)
-                           for cls, gr in grammemes.items()},
-        'is_unknown': linguistic.token_is_unknown(token),
+        'grammemes': {
+            cls: sorted(tag_lat2cyr(g) for g in gr)
+            for cls, gr in token_info.grammeme_classes.items()
+        },
+        'is_unknown': token_info.is_unknown(),
         'help_links': help_links,
     }
     return res
@@ -218,12 +205,19 @@ def _help_links(token, ambig_grammemes, all_grammemes):
         # Снятие неоднозначности между падежами у прилагательных и причастий единственного числа
         ({'ADJF'}, {'sing'}, 'http://opencorpora.org/manual.php?pool_type=7'),
         ({'PRTF'}, {'sing'}, 'http://opencorpora.org/manual.php?pool_type=7'),
+
+        # Прилагательные / причастия
+        (set(), {'ADJF', 'PRTF'}, 'http://www.opencorpora.org/wiki/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_ADJF_PRTF'),
+
+        # Существительные/прилагательные (фамилии)
+        ({'famn'}, {'ADJF', 'NOUN'}, 'http://www.opencorpora.org/wiki/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_ADJF_NOUN_%28%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F%29'),
     ]
     for required, ambig, link in opencorpora_instructions:
         if (not required or required & all_grammemes) and ambig <= ambig_grammemes:
-            name = "/".join([linguistic.tag_repr(g) for g in ambig])
+            name = "/".join(tag_lat2cyr(g) for g in ambig)
             if required:
-                name = "%s:%s" % (','.join([linguistic.tag_repr(g) for g in required]), name)
+                condition = ','.join(tag_lat2cyr(g) for g in required)
+                name = "%s:%s" % (condition, name)
             res[name] = link
 
     return res
@@ -236,22 +230,11 @@ def _started_sent_or_404(name):
         return abort(404)
 
 
-def _is_unambig(tags):
-    return any([cls == SentenceStorage.UNIVOCAL for t, norm, cls in tags])
-
-
 def _sent_tokens(sent):
-    return [(token, _is_unambig(tags)) for token, tags, grammemes in sent]
+    return [(info.token, info.is_unambig()) for info in sent]
 
 
 def _unambig_percent(tokens):
     unambig_ratio = sum(1 for (t, unambig) in tokens if unambig) / len(tokens)
-    return int(unambig_ratio*100)
-
-
-def _without_discarded_tags(parsed_sent):
-    return [
-        [token, [tag for tag, norm, cls in tags if cls != SentenceStorage.DISCARDED]]
-        for token, tags in parsed_sent
-    ]
+    return int(unambig_ratio * 100)
 

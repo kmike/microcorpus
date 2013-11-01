@@ -1,21 +1,15 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import
-from collections import defaultdict
 import os
 import tempfile
-import codecs
-import random
 import hashlib
-from .linguistic import tag2grammemes, morph as default_morph
+from .linguistic import morph as default_morph
+from .linguistic import ParseInfo, TokenInfo, get_grammeme_classes
 from .utils import tolist, sample_from_iterable, iter_lines
 
 
 class SentenceStorage:
     TAG_SPLITTER = ' / '
-
-    UNIVOCAL = 'univocal'
-    AMBIG = 'ambig'
-    DISCARDED = 'discarded'
 
     def __init__(self, root, morph=default_morph):
         self.root = root
@@ -43,18 +37,17 @@ class SentenceStorage:
 
     @tolist
     def load(self, stage, name):
-        for token, tags in self._load_raw(stage, name):
-            tags = self._preprocess_tags(token, tags)
-            grammemes = self._classify_grammemes(tags)
-            yield token, tags, grammemes
+        """ Load sentence ``name`` from stage ``stage``.
+        Return a list of ``TokenInfo`` instances.
+        """
+        for idx, (token, tags) in enumerate(self._load_raw(stage, name)):
+            parses_info = self._get_parses_info(token, tags)
+            yield TokenInfo(token, parses_info, idx)
 
-    #def load_raw_line(self, stage, name, token_index):
-    #    return list(iter_lines(self._path(stage, name)))[token_index].split(None, 1)
-
-    def write_sent(self, stage, name, parsed_sent):
-        # XXX: input format is not the same as `load` output!
+    def write_sent(self, stage, name, sent):
+        tokens_tags = [(info.token, info.possible_tags) for info in sent]
         filename = self._path(stage, name)
-        self._write_task(filename, parsed_sent)
+        self._write_task(filename, tokens_tags)
 
     def start(self, name):
         self._move('todo', 'started', name)
@@ -67,16 +60,16 @@ class SentenceStorage:
         idx = tasks.index(name)
 
         try:
-            prev = tasks[idx-1]
+            prev_task = tasks[idx - 1]
         except IndexError:
-            prev = tasks[-1]
+            prev_task = tasks[-1]
 
         try:
-            next = tasks[idx+1]
+            next_task = tasks[idx + 1]
         except IndexError:
-            next = tasks[0]
+            next_task = tasks[0]
 
-        return prev, next
+        return prev_task, next_task
 
     def _task_list(self, stage):
         return os.listdir(self._path(stage))
@@ -89,41 +82,25 @@ class SentenceStorage:
             yield token, tags
 
     @tolist
-    def _preprocess_tags(self, token, tags):
+    def _get_parses_info(self, token, tags):
         parses = self.morph.parse(token)
         normal_forms = {str(p.tag): p.normal_form for p in parses}
         extra_tags = set(str(p.tag) for p in parses) - set(tags)
-        all_tags = tags + [str(p.tag) for p in parses if str(p.tag) in extra_tags]
+        all_tags = tags + [str(p.tag) for p in parses
+                           if str(p.tag) in extra_tags]
 
         for tag in all_tags:
+            normal_form = normal_forms.get(tag, '?')
             if tag in extra_tags:
-                yield tag, normal_forms.get(tag, '?'), self.DISCARDED
+                yield ParseInfo(tag, normal_form, ParseInfo.DISCARDED)
             elif len(tags) == 1:
-                yield tag, normal_forms.get(tag, '?'), self.UNIVOCAL
+                yield ParseInfo(tag, normal_form, ParseInfo.UNIVOCAL)
             else:
-                yield tag, normal_forms.get(tag, '?'), self.AMBIG
-
-    def _classify_grammemes(self, tags):
-        all_grammemes = defaultdict(set)
-        tag_grammemes = defaultdict(list)
-        for tag, norm_form, cls in tags:
-            gr = tag2grammemes(tag)
-            tag_grammemes[cls].append((tag, gr))
-            all_grammemes[cls] |= gr
-
-        if not all_grammemes[self.UNIVOCAL]:
-            all_grammemes[self.UNIVOCAL] = all_grammemes[self.AMBIG].copy()
-            for tag, gr in tag_grammemes[self.AMBIG]:
-                all_grammemes[self.UNIVOCAL] &= gr
-
-        all_grammemes[self.DISCARDED] -= all_grammemes[self.UNIVOCAL]
-        all_grammemes[self.DISCARDED] -= all_grammemes[self.AMBIG]
-        all_grammemes[self.AMBIG] -= all_grammemes[self.UNIVOCAL]
-        return all_grammemes
+                yield ParseInfo(tag, normal_form, ParseInfo.AMBIG)
 
     def _create_task(self, sent):
         name = hashlib.md5(" ".join(sent).encode('utf8')).hexdigest()[:8]
-        filename = self._path('todo', name+'.txt')
+        filename = self._path('todo', name + '.txt')
         parsed_sent = [
             (token, self.morph.tag(token))
             for token in sent.split()
