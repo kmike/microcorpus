@@ -1,6 +1,6 @@
-Однако          CONJ,Prnt / INTJ
+Однако          CONJ,Prnt
 с               PREP
-исковыми        ADJF plur,ablt / ADJF plur,ablt
+исковыми        ADJF plur,ablt
 требованиями    NOUN,inan,neut plur,ablt
 он              NPRO,masc,3per sing,nomn
 обращаться      INFN,impf,intr

@@ -1,7 +1,7 @@
 Однако          CONJ,Prnt
 ,               PNCT
 в               PREP
-силу            ПР
+силу            NOUN,inan,femn sing,accs
 изначальной     ADJF femn,sing,gent
 экспериментальности NOUN,inan,femn,Sgtm sing,gent
 направления     NOUN,inan,neut sing,gent

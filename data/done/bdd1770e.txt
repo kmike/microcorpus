@@ -25,7 +25,7 @@
 Кушнера         NOUN,anim,masc,Sgtm,Surn sing,gent
 ,               PNCT
 а               CONJ
-как             ADVB
-минимум         ADVB
+как             CONJ
+минимум         NOUN,inan,masc sing,nomn
 третьим         ADJF,Subx,Anum masc,sing,ablt
 .               PNCT

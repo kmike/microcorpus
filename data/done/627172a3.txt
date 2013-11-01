@@ -1,0 +1,33 @@
+Всё             ADVB
+же              PRCL
+забавно         ADVB,Prdx
+,               PNCT
+что             CONJ
+годами          ADVB
+никто           NPRO sing,nomn
+не              PRCL
+желал           VERB,impf,tran masc,sing,past,indc
+понять          INFN,perf,tran
+,               PNCT
+что             CONJ
+Москва          NOUN,inan,femn,Sgtm,Geox sing,nomn
+—               PNCT
+субъект         NOUN,inan,masc sing,nomn
+Федерации       NOUN,inan,femn sing,gent
+и               CONJ
+что             CONJ
+даже            PRCL
+в               PREP
+эпоху           NOUN,inan,femn sing,accs
+выборов         NOUN,inan,GNdr,Pltm plur,gent
+москвичи        NOUN,anim,masc plur,nomn
+избирали        VERB,impf,tran plur,past,indc
+именно          PRCL
+губернатора     NOUN,anim,masc sing,accs
+,               PNCT
+приватизировавшего PRTF,perf,tran,past,actv anim,masc,sing,accs
+позицию         NOUN,inan,femn sing,accs
+главы           NOUN,anim,masc sing,gent
+регионального   ADJF neut,sing,gent
+правительства   NOUN,inan,neut sing,gent
+.               PNCT

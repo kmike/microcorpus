@@ -1,0 +1,17 @@
+Наверное        CONJ,Prnt
+,               PNCT
+справедливо     ADVB
+упрекнуть       INFN,perf,tran
+армянское       ADJF neut,sing,accs
+общество        NOUN,inan,neut sing,accs
+в               PREP
+иррациональном  ADJF,Qual neut,sing,loct
+отношении       NOUN,inan,neut sing,loct
+к               PREP
+Карабаху        NOUN,inan,masc,Geox sing,datv
+и               CONJ
+возможным       ADJF,Qual plur,datv
+российско-азербайджанским ADJF plur,datv
+закулисным      ADJF,Qual plur,datv
+договоренностям NOUN,inan,femn plur,datv
+.               PNCT

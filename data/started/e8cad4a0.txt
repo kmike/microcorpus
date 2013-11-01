@@ -4,7 +4,7 @@
 на              PREP
 нефть           NOUN,inan,femn sing,accs
 с               PREP
-начала          VERB,perf,tran femn,sing,past,indc / NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
+начала          NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
 2000-х          NOUN,anim,femn plur,gent / NOUN,anim,femn plur,accs / VERB,perf,intr masc,sing,past,indc / ADJS masc,sing / ADVB
 сам             ADJF,Apro masc,sing,nomn / ADJF,Apro inan,masc,sing,accs
 по              PREP

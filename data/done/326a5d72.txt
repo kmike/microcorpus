@@ -1,5 +1,5 @@
 —               PNCT
-Есть            INTJ / VERB,impf,intr sing,3per,pres,indc / VERB,impf,intr plur,3per,pres,indc,Infr / INFN,impf,tran
+Есть            VERB,impf,intr sing,3per,pres,indc
 пара            NOUN,inan,femn sing,nomn
 приятелей       NOUN,anim,masc plur,gent
 со              PREP Vpre

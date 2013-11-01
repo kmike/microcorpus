@@ -10,5 +10,5 @@
 название        NOUN,inan,neut sing,nomn / NOUN,inan,neut sing,accs
 —               PNCT
 улица           NOUN,inan,femn sing,nomn
-Кирова          NOUN,inan,masc,Geox sing,gent / NOUN,anim,masc,Sgtm,Surn sing,gent / NOUN,anim,masc,Sgtm,Surn sing,accs / NOUN,anim,femn,Sgtm,Surn sing,nomn / NOUN,inan,neut,Sgtm,Geox sing,gent
+Кирова          NOUN,inan,masc,Geox sing,gent / NOUN,anim,masc,Sgtm,Surn sing,gent / NOUN,inan,neut,Sgtm,Geox sing,gent
 .               PNCT

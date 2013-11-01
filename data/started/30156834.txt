@@ -1,7 +1,7 @@
 —               PNCT
 Наверняка       ADVB / CONJ,Prnt
-же              PRCL / CONJ
-есть            VERB,impf,intr sing,3per,pres,indc / VERB,impf,intr plur,3per,pres,indc,Infr
+же              PRCL
+есть            VERB,impf,intr plur,3per,pres,indc
 какие-то        ADJF,Apro plur,nomn
 сложные         ADJF,Qual plur,nomn
 обязательства   NOUN,inan,neut plur,nomn

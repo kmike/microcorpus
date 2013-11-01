@@ -2,7 +2,7 @@
 1928            NUMB
 г               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / ADJS masc,sing / VERB,perf,tran masc,sing,past,indc / ADVB
 .               PNCT
-карьере         NOUN,inan,masc sing,loct / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct
+карьере         NOUN,inan,femn sing,datv
 Малхолланда     NOUN,anim,femn,Name sing,nomn
 пришёл          VERB,perf,intr masc,sing,past,indc
 внезапный       ADJF,Qual masc,sing,nomn / ADJF,Qual inan,masc,sing,accs

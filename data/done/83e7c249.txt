@@ -1,0 +1,14 @@
+—               PNCT
+Так             PRCL
+скажите         VERB,perf,tran plur,impr,excl
+ему             NPRO,masc,3per sing,datv
+,               PNCT
+если            CONJ
+увидите         VERB,perf,tran plur,2per,futr,indc
+,               PNCT
+что             CONJ
+мы              NPRO,1per plur,nomn
+начнем          VERB,perf,tran plur,1per,futr,indc
+с               PREP
+отравления      NOUN,inan,neut sing,gent
+.               PNCT

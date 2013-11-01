@@ -10,7 +10,7 @@
 симпатизировал  VERB,impf,intr masc,sing,past,indc
 Восточной       ADJF,Qual femn,sing,gent / ADJF,Qual femn,sing,loct / ADJF,Qual femn,sing,datv / ADJF,Qual femn,sing,ablt
 Германии        NOUN,inan,femn,Sgtm,Geox sing,gent / NOUN,inan,femn,Sgtm,Geox sing,loct / NOUN,inan,femn,Sgtm,Geox sing,datv / NOUN,inan,masc sing,loct / NOUN,inan,masc plur,nomn / NOUN,inan,masc plur,accs
-и               CONJ / INTJ / PRCL
+и               CONJ
 поддерживал     VERB,impf,tran masc,sing,past,indc
 отношения       NOUN,inan,neut sing,gent / NOUN,inan,neut plur,nomn / NOUN,inan,neut plur,accs
 с               PREP
