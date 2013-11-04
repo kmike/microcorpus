@@ -4,7 +4,7 @@ import os
 import tempfile
 import hashlib
 from .linguistic import morph as default_morph
-from .linguistic import ParseInfo, TokenInfo, get_grammeme_classes
+from .linguistic import ParseInfo, TokenInfo
 from .utils import tolist, sample_from_iterable, iter_lines
 
 

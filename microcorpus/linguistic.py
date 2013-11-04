@@ -5,18 +5,8 @@ import pymorphy2
 from pymorphy2 import shapes
 from pymorphy2.opencorpora_dict.preprocess import tag2grammemes
 from pymorphy2.tokenizers import simple_word_tokenize as tokenize
-import russian_tagsets
-from russian_tagsets.opencorpora import EXTERNAL_TO_INTERNAL
 
 morph = pymorphy2.MorphAnalyzer()
-
-
-def tag_lat2cyr(tag):
-    return russian_tagsets.opencorpora.internal_to_external(str(tag))
-
-
-def grammeme_cyr2lat(grammeme):
-    return EXTERNAL_TO_INTERNAL[grammeme.strip()]
 
 
 def tag_prob(token, tag):
@@ -41,7 +31,7 @@ class ParseInfo:
 
     @property
     def normal_form(self):
-        for gr in ['name', 'famn', 'patr', 'Geox', 'Orgn']:
+        for gr in ['Name', 'Surn', 'Patr', 'Geox', 'Orgn']:
             if gr in self.tag:
                 return self.normal_form_raw.title()
         return self.normal_form_raw

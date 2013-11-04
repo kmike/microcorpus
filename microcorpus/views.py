@@ -4,8 +4,7 @@ import random
 from flask import render_template, abort, request, redirect, url_for, g
 from microcorpus import app
 from microcorpus.storage import SentenceStorage
-from microcorpus.linguistic import (ParseInfo, morph, tokenize, tag_lat2cyr,
-                                    grammeme_cyr2lat)
+from microcorpus.linguistic import ParseInfo, morph, tokenize
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data')
 storage = SentenceStorage(DATA_PATH, morph)
@@ -21,7 +20,7 @@ def pymorphy2_parse():
     words = request.args.get('w', '')
     parses = [(w, morph.parse(w)) for w in tokenize(words)]
     return render_template('parse.jinja2', words=words, parses=parses,
-                           tag_repr=tag_lat2cyr)
+                           tag_repr=morph.lat2cyr)
 
 
 @app.route('/random-task/')
@@ -90,7 +89,7 @@ def token_tag(sentence_name, token_index):
         token_info.select_tag(request.form['tag'])
 
     elif 'grammeme' in request.form:  # user selected a grammeme
-        gr = grammeme_cyr2lat(request.form['grammeme'])
+        gr = morph.cyr2lat(request.form['grammeme'].strip())
         token_info.select_grammeme(gr)
 
     storage.write_sent('started', sentence_name, sent)
@@ -159,7 +158,7 @@ def _token_info_dict(idx, token_info):
         'tags': [
             (
                 p.normal_form,
-                tag_lat2cyr(p.tag),
+                morph.lat2cyr(p.tag),
                 token_info.tag_probability(p.tag),
                 p.tag,
                 CSS_SUFFIXES[p.state],
@@ -167,7 +166,7 @@ def _token_info_dict(idx, token_info):
             for p in token_info.parses
         ],
         'grammemes': {
-            cls: sorted(tag_lat2cyr(g) for g in gr)
+            cls: sorted(morph.lat2cyr(g) for g in gr)
             for cls, gr in token_info.grammeme_classes.items()
         },
         'is_unknown': token_info.is_unknown(),
@@ -214,9 +213,9 @@ def _help_links(token, ambig_grammemes, all_grammemes):
     ]
     for required, ambig, link in opencorpora_instructions:
         if (not required or required & all_grammemes) and ambig <= ambig_grammemes:
-            name = "/".join(tag_lat2cyr(g) for g in ambig)
+            name = "/".join(morph.lat2cyr(g) for g in ambig)
             if required:
-                condition = ','.join(tag_lat2cyr(g) for g in required)
+                condition = ','.join(morph.lat2cyr(g) for g in required)
                 name = "%s:%s" % (condition, name)
             res[name] = link
 
