@@ -1,4 +1,4 @@
-1               NUMB
+1               NUMB,intg
 .               PNCT
 Швеция          NOUN,inan,femn,Sgtm,Geox sing,nomn
 —               PNCT

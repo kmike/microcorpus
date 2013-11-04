@@ -1,5 +1,5 @@
 —               PNCT
-Наверняка       ADVB / CONJ,Prnt
+Наверняка       ADVB
 же              PRCL
 есть            VERB,impf,intr plur,3per,pres,indc
 какие-то        ADJF,Apro plur,nomn

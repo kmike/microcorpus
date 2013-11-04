@@ -1,4 +1,4 @@
-2               NUMB
+2               NUMB,intg
 .               PNCT
 Преступление    NOUN,inan,neut sing,nomn
 признается      VERB,impf,intr sing,3per,pres,indc

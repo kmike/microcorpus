@@ -33,5 +33,5 @@
 условные        ADJF,Qual inan,plur,accs
 гидростатические ADJF inan,plur,accs
 давления        NOUN,inan,neut plur,accs
-Pу              UNKN
+Pу              LATN
 .               PNCT

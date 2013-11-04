@@ -4,9 +4,9 @@
 ,               PNCT
 предусмотренные PRTF,perf,tran,past,pssv plur,nomn
 пунктами        NOUN,inan,masc plur,ablt
-2               NUMB
+2               NUMB,intg
 и               CONJ
-3               NUMB
+3               NUMB,intg
 настоящей       ADJF femn,sing,gent
 статьи          NOUN,inan,femn sing,gent
 ,               PNCT

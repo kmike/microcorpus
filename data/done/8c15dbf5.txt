@@ -2,7 +2,7 @@
 эпизоде         NOUN,inan,masc sing,loct
 высмеивалась    VERB,impf,intr femn,sing,past,indc
 преданность     NOUN,inan,femn sing,nomn
-Вулфа           NOUN,anim,masc,Name sing,gent
+Вулфа           NOUN,anim,masc,Sgtm,Surn sing,gent
 к               PREP
 белым           ADJF,Qual plur,datv
 пиджакам        NOUN,inan,masc plur,datv

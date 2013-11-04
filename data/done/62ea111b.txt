@@ -12,7 +12,7 @@
 третье          ADJF,Subx,Anum neut,sing,accs
 место           NOUN,inan,neut sing,accs
 в               PREP
-мире            NOUN,inan,neut sing,loct
+мире            NOUN,inan,masc sing,loct
 по              PREP
 капитализации   NOUN,inan,femn sing,datv
 среди           PREP
@@ -21,7 +21,7 @@
 мира            NOUN,inan,masc sing,gent
 ,               PNCT
 при             PREP
-этом            NPRO,neut sing,loct / ADJF,Apro masc,sing,loct / ADJF,Apro neut,sing,loct
+этом            NPRO,neut sing,loct
 сохраняя        GRND,impf,tran pres
 достаточно      ADVB,Prdx
 низкие          ADJF,Qual inan,plur,accs

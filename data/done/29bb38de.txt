@@ -4,7 +4,7 @@
 ,               PNCT
 предусмотренные ADJF plur,nomn
 пунктом         NOUN,inan,masc sing,ablt
-1               NUMB
+1               NUMB,intg
 настоящей       ADJF femn,sing,gent
 статьи          NOUN,inan,femn sing,gent
 ,               PNCT

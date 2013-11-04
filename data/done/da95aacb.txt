@@ -11,9 +11,9 @@
 интересуются    VERB,impf,intr plur,3per,pres,indc
 текстами        NOUN,inan,masc plur,ablt
 на              PREP
-арабском        ADJF masc,sing,loct
+арабском        ADJF,Subx masc,sing,loct
 ,               PNCT
-китайском       ADJF masc,sing,loct
+китайском       ADJF,Subx masc,sing,loct
 и               CONJ
 русском         ADJF,Subx masc,sing,loct
 ...             PNCT

@@ -2,7 +2,7 @@
 августе         NOUN,inan,masc sing,loct
 2004            NUMB
 года            NOUN,inan,masc sing,gent
-83              NUMB
+83              NUMB,intg
 -               PNCT
 летний          ADJF masc,sing,nomn
 ветеран         NOUN,anim,masc sing,nomn

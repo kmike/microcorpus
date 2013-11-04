@@ -4,6 +4,6 @@
 начато          PRTS,perf,past,pssv neut,sing
 в               PREP
 марте           NOUN,inan,masc sing,loct
-1868            NUMB
+1868            NUMB,intg
 года            NOUN,inan,masc sing,gent
 .               PNCT

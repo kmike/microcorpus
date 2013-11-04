@@ -5,11 +5,11 @@
 газеты          NOUN,inan,femn sing,gent
 выросло         VERB,perf,intr neut,sing,past,indc
 в               PREP
-2               NUMB
+2               NUMB,intg
 раза            NOUN,inan,masc sing,gent
 —               PNCT
-247,5           UNKN
-тыс             NOUN,inan,masc,Geox sing,nomn / NOUN,inan,masc,Geox sing,accs / ADJS,Qual masc,sing
+247,5           NUMB,real
+тыс             NOUN,inan,femn,Fixd,Abbr plur,gent
 .               PNCT
 в               PREP
 месяц           NOUN,inan,masc sing,accs

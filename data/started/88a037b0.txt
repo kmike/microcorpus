@@ -1,7 +1,7 @@
 Только          PRCL / CONJ
-25              NUMB
+25              NUMB,intg
 декабря         NOUN,inan,masc sing,gent
-1934            NUMB
+1934            NUMB,intg
 года            NOUN,inan,masc sing,gent / NOUN,inan,masc plur,nomn,Infr / NOUN,inan,masc plur,accs,Infr
 улица           NOUN,inan,femn sing,nomn
 приняла         VERB,perf,tran femn,sing,past,indc

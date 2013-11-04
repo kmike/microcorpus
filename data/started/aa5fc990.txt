@@ -1,16 +1,16 @@
 1.3             UNKN
 .               PNCT
 пункт           NOUN,inan,masc sing,accs
-6               NUMB
+6               NUMB,intg
 Санитарных      ADJF,Qual anim,plur,accs
 правил          NOUN,inan,neut plur,gent
 и               CONJ
 норм            NOUN,inan,femn plur,gent
 2.1.2.12        UNKN
 -               PNCT
-19              NUMB
+19              NUMB,intg
 -               PNCT
-2006            NUMB
+2006            NUMB,intg
 «               PNCT
 Гигиенические   ADJF plur,nomn
 требования      NOUN,inan,neut plur,nomn
@@ -31,13 +31,13 @@
 Республики      NOUN,inan,femn sing,gent
 Беларусь        NOUN,inan,femn,Sgtm,Geox sing,nomn
 от              PREP
-8               NUMB
+8               NUMB,intg
 ноября          PNCT
-2006            NUMB
+2006            NUMB,intg
 г               NOUN,inan,masc,Fixd,Abbr sing,gent
 .               PNCT
 №               UNKN
-134             NUMB
+134             NUMB,intg
 ,               PNCT
 дополнить       INFN,perf,tran
 частью          NOUN,inan,femn sing,ablt

@@ -7,8 +7,8 @@
 женщин          NOUN,anim,femn plur,gent
 составляет      VERB,impf,tran sing,3per,pres,indc
 примерно        ADVB
-2               NUMB
+2               NUMB,intg
 —               PNCT
-5               NUMB
+5               NUMB,intg
 %               PNCT
 .               PNCT

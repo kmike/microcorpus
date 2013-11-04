@@ -21,7 +21,7 @@
 завод           NOUN,inan,masc sing,accs
 ,               PNCT
 обеспечивающий  PRTF,impf,tran,pres,actv inan,masc,sing,accs
-70              NUMB
+70              NUMB,intg
 %               PNCT
 населения       NOUN,inan,neut sing,gent
 страны          NOUN,inan,femn sing,gent
