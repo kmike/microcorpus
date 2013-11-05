@@ -14,7 +14,7 @@
 дуэли           NOUN,inan,femn sing,gent / NOUN,inan,femn sing,datv / NOUN,inan,femn sing,loct / NOUN,inan,femn plur,nomn / NOUN,inan,femn plur,accs
 (               PNCT
 отец            NOUN,anim,masc sing,nomn
-Диана           NOUN,anim,femn,Name sing,nomn
+Диана           NOUN,anim,GNdr,Ms-f,Fixd,Surn sing,nomn
 )               PNCT
 и               CONJ / INTJ / PRCL
 даже            PRCL / CONJ
@@ -23,7 +23,7 @@
 дуэль           NOUN,inan,femn sing,nomn / NOUN,inan,femn sing,accs
 (               PNCT
 отец            NOUN,anim,masc sing,nomn
-Санчес          NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs
+Санчес          NOUN,anim,GNdr,Ms-f,Fixd,Surn sing,nomn
 )               PNCT
 :               PNCT
 главное         ADJF,Qual neut,sing,nomn / NOUN,inan,neut sing,nomn / NOUN,inan,neut sing,accs / CONJ,Prnt / ADJF,Qual neut,sing,accs

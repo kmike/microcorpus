@@ -209,7 +209,7 @@ def _help_links(token, ambig_grammemes, all_grammemes):
         (set(), {'ADJF', 'PRTF'}, 'http://www.opencorpora.org/wiki/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_ADJF_PRTF'),
 
         # Существительные/прилагательные (фамилии)
-        ({'famn'}, {'ADJF', 'NOUN'}, 'http://www.opencorpora.org/wiki/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_ADJF_NOUN_%28%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F%29'),
+        ({'Surn'}, {'ADJF', 'NOUN'}, 'http://www.opencorpora.org/wiki/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_ADJF_NOUN_%28%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F%29'),
     ]
     for required, ambig, link in opencorpora_instructions:
         if (not required or required & all_grammemes) and ambig <= ambig_grammemes:
