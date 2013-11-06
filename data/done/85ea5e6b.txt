@@ -1,0 +1,40 @@
+Так             ADVB,Dmns
+,               PNCT
+обыгрывая       GRND,impf,tran pres
+метод           NOUN,inan,masc sing,accs
+направления     NOUN,inan,neut sing,gent
+намерений       NOUN,inan,neut plur,gent
+,               PNCT
+учёные          NOUN,anim,masc plur,nomn
+-               PNCT
+иезуиты         NOUN,anim,masc plur,nomn
+оправдывают     VERB,impf,tran plur,3per,pres,indc
+участие         NOUN,inan,neut sing,accs
+в               PREP
+дуэли           NOUN,inan,femn sing,loct
+(               PNCT
+отец            NOUN,anim,masc sing,nomn
+Диана           NOUN,anim,GNdr,Ms-f,Fixd,Surn sing,nomn
+)               PNCT
+и               CONJ
+даже            PRCL
+вызов           NOUN,inan,masc sing,accs
+на              PREP
+дуэль           NOUN,inan,femn sing,accs
+(               PNCT
+отец            NOUN,anim,masc sing,nomn
+Санчес          NOUN,anim,GNdr,Ms-f,Fixd,Surn sing,nomn
+)               PNCT
+:               PNCT
+главное         CONJ,Prnt
+,               PNCT
+чтобы           CONJ
+«               PNCT
+намерение       NOUN,inan,neut sing,nomn
+было            VERB,impf,intr neut,sing,past,indc
+направлено      PRTS,perf,past,pssv neut,sing
+в               PREP
+хорошую         ADJF,Qual femn,sing,accs
+сторону         NOUN,inan,femn sing,accs
+»               PNCT
+.               PNCT

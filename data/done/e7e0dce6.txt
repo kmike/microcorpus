@@ -56,7 +56,7 @@
 в               PREP
 случаях         NOUN,inan,masc plur,loct
 ,               PNCT
-предусмотренных ADJF plur,loct / PRTF,perf,tran,past,pssv plur,loct
+предусмотренных ADJF plur,loct
 международным   ADJF masc,sing,ablt
 договором       NOUN,inan,masc sing,ablt
 Российской      ADJF femn,sing,gent

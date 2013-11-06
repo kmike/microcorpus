@@ -1,0 +1,7 @@
+Тут             ADVB,Dmns
+нечаянно        ADVB
+включил         VERB,perf,tran masc,sing,past,indc
+«               PNCT
+Прожекторперисхилтон NOUN,inan,masc sing,accs
+»               PNCT
+.               PNCT

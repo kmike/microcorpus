@@ -1,7 +1,0 @@
-Тут             ADVB,Dmns / NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / NOUN,inan,femn plur,gent
-нечаянно        ADVB / ADJS,Qual neut,sing
-включил         VERB,perf,tran masc,sing,past,indc
-«               PNCT
-Прожекторперисхилтон NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / NOUN,inan,masc,Orgn sing,nomn / NOUN,inan,masc,Orgn sing,accs / NOUN,anim,masc,Name sing,nomn
-»               PNCT
-.               PNCT
