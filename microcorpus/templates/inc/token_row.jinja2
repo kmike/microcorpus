@@ -41,9 +41,12 @@
     {% endif %}
 </td>
 <td>
-   <div class="disambig-controls">
-       <a href="{{ info["index"] }}/raw/" data-target="#disambigRawTagsModal" data-toggle="modal">
-           <i class="fa fa-ambulance" title="ручное редактирование"></i>
+   <div class="row-controls btn-group btn-group-xs">
+       <a href="{{ info["index"] }}/raw/" data-target="#disambigRawTagsModalContainer" data-toggle="modal" class="btn btn-info">
+           <i class="fa fa-wrench" title="ручное редактирование"></i>
+       </a>
+       <a href="{{ info["index"] }}/reset/" data-target="#disambigResetTagsModalContainer" data-toggle="modal" class="btn btn-info">
+           <i class="fa fa-undo" title="сбросить"></i>
        </a>
    </div>
 </td>

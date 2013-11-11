@@ -4,22 +4,26 @@
 
 {% block js %}
     <script type="application/javascript">
-        $(document).ready(function(){
-            "use strict";
+        "use strict";
 
-            function updateText(){
-                $.get("progress/", function(response){
-                    var $progress = $('.disambig-progress');
-                    $progress.find(".progress-bar").css('width', response+'%');
-                    $progress.attr("title", "готово "+response+"%");
-                });
-                $(".sentence-text").load("text/");
-            }
+        function reloadSentenceText(){
+            /* Update sentence text/state from server */
+            $.get("progress/", function(response){
+                var $progress = $('.disambig-progress');
+                $progress.find(".progress-bar").css('width', response+'%');
+                $progress.attr("title", "готово "+response+"%");
+            });
+            $(".sentence-text").load("text/");
+        }
 
+        function setupDisambiguationInterface(){
+
+            /*
             $('#tokens-table').tooltip({
                 animation: false,
                 selector: " *[data-toggle]"
             });
+            */
 
             $('#tokens-table').on("click", "button", function(ev){
                 var $btn = $(this);
@@ -28,41 +32,25 @@
                 }
                 var tokenid = $btn.parents("tr").data("tokenid").toString();
                 var url = tokenid + '/';
-
                 var data;
+
                 if ($btn.parents(".disambig-grammemes").length){
+                    // user selected a grammeme
                     data = {'grammeme': $btn.text()};
                 }
                 else if ($btn.parents(".disambig-tags").length){
+                    // user selected a full tag
                     data = {'tag': $btn.data("origname")};
                 }
 
                 $.post(url, data, function(response){
                     $btn.parents("tr").html(response);
-                    updateText();
+                    reloadSentenceText();
                 });
             });
+        }
 
-            var modalRoot = $("#disambigRawTagsModal");
-            modalRoot.on("submit", "form", function(ev){
-                ev.preventDefault();
-                console.log(ev);
-                var form = $(this);
-                var tokenid = form.data("tokenid").toString();
-                $.post(
-                    form.attr("action"),
-                    form.serialize(),
-                    function(response){
-                        $("tr[data-tokenid='" +tokenid+ "']").html(response);
-                        updateText();
-                        $('#disambigRawTagsModal').modal('hide');
-                    }
-                );
-            });
-            modalRoot.on('hidden.bs.modal', function () {
-                $(this).data('bs.modal', null);
-            });
-
+        function setupTokenHighlighting(){
             var s = $("#sentence-text");
 
             function _token(tr){
@@ -74,15 +62,15 @@
                 // var cls = token.hasClass('ambig') ? 'label-info': 'label-primary';
                 // token.addClass('label '+cls).removeClass('text-primary text-info');
                 token.addClass('token-hlt');
-            });
-
-            $('#tokens-table').on("mouseleave", "tr", function(ev){
+            }).on("mouseleave", "tr", function(ev){
                 var token = _token(this);
-{#                var cls = token.hasClass('ambig') ? 'text-info': 'text-primary';#}
+                //var cls = token.hasClass('ambig') ? 'text-info': 'text-primary';
                 token.removeClass('token-hlt');
             });
+        }
 
-            // stickt sentence text
+        function setupStickySentence(){
+            var s = $("#sentence-text");
             var pos = s.position();
             $(window).scroll(function() {
                 var windowpos = $(window).scrollTop();
@@ -95,7 +83,39 @@
                     $("#tokens-table").parents(".table").css("margin-top", "");
                 }
             });
+        }
 
+        function modalClearOnHide($modalRoot){
+            $modalRoot.on('hidden.bs.modal', function () {
+                $(this).data('bs.modal', null);
+            });
+        }
+
+        function setupTagRowModal(modalRoot){
+            modalRoot = $(modalRoot);
+            modalRoot.on("submit", "form", function(ev){
+                ev.preventDefault();
+                var form = $(this);
+                var tokenid = form.data("tokenid").toString();
+                $.post(
+                    form.attr("action"),
+                    form.serialize(),
+                    function(response){
+                        $("tr[data-tokenid='" +tokenid+ "']").html(response);
+                        reloadSentenceText();
+                        modalRoot.modal('hide');
+                    }
+                );
+            });
+            modalClearOnHide(modalRoot);
+        }
+
+        $(document).ready(function(){
+            setupDisambiguationInterface();
+            setupTagRowModal('#disambigRawTagsModalContainer');
+            setupTagRowModal('#disambigResetTagsModalContainer');
+            setupTokenHighlighting();
+            setupStickySentence();
         });
     </script>
 {% endblock %}
@@ -132,7 +152,8 @@
 
 {% block contents %}
 
-<div class="modal" id="disambigRawTagsModal" tabindex="-1" role="dialog" aria-hidden="true"></div>
+<div class="modal" id="disambigRawTagsModalContainer" tabindex="-1" role="dialog" aria-hidden="true"></div>
+<div class="modal" id="disambigResetTagsModalContainer" tabindex="-1" role="dialog" aria-hidden="true"></div>
 
 <div class="container">
     <div id="sentence-text" class="container">
@@ -157,7 +178,7 @@
                             </span>
                         </th>
                         <th>Подсказки</th>
-                        <th><i class="fa fa-cogs"></i></th>
+                        <th>Действия</th>
                     </tr>
                 </thead>
                 <tbody id="tokens-table">

@@ -101,7 +101,6 @@ def token_tag(sentence_name, token_index):
 def token_raw_tag(sentence_name, token_index):
     sent = _started_sent_or_404(sentence_name)
     token_info = sent[token_index]
-    #parsed_sent = [[token, tags] for token, tags, grammemes in sent]
 
     if request.method == 'GET':
         return render_template('inc/rawtags.jinja2',
@@ -114,6 +113,28 @@ def token_raw_tag(sentence_name, token_index):
     if proper_tag:
         token_info.select_tag(proper_tag)
         storage.write_sent('started', sentence_name, sent)
+
+    if request.is_xhr:
+        url = url_for("token_tag", sentence_name=sentence_name, token_index=token_index)
+        return redirect(url)
+
+    return redirect(url_for("sentence", name=sentence_name))
+
+
+@app.route('/started/<sentence_name>/<int:token_index>/reset/', methods=['POST', 'GET'])
+def token_reset_tag(sentence_name, token_index):
+    sent = _started_sent_or_404(sentence_name)
+    token_info = sent[token_index]
+
+    if request.method == 'GET':
+        return render_template('inc/reset_tag.jinja2',
+           sentence_name=sentence_name,
+           token_index=token_index,
+           token=token_info.token,
+        )
+
+    token_info.reset()
+    storage.write_sent('started', sentence_name, sent)
 
     if request.is_xhr:
         url = url_for("token_tag", sentence_name=sentence_name, token_index=token_index)

@@ -31,12 +31,12 @@
 /*}*/
 
 
-.table .disambig-controls {
-    display: none;
+.table .row-controls{
+    visibility: hidden;
 }
 
-.table tr:hover .disambig-controls {
-    display: block;
+.table tr:hover .row-controls {
+    visibility: visible;
 }
 
 body.modal-open {

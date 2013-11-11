@@ -66,6 +66,12 @@ class TokenInfo:
     def grammeme_classes(self):
         return get_grammeme_classes(self.parses)
 
+    @property
+    def possible_tags(self):
+        return [p.tag for p in _without_discarded(self.parses)]
+
+    # ======= actions ===========
+
     def select_tag(self, tag):
         self.parses = [ParseInfo(tag, '', ParseInfo.UNIVOCAL)]
 
@@ -78,9 +84,13 @@ class TokenInfo:
 
         self.parses = _without_discarded(possible_parses)
 
-    @property
-    def possible_tags(self):
-        return [p.tag for p in _without_discarded(self.parses)]
+    def reset(self):
+        parses = morph.parse(self.token)
+        state = ParseInfo.AMBIG if len(parses) != 1 else ParseInfo.UNIVOCAL
+        self.parses = [
+            ParseInfo(p.tag, p.normal_form, state)
+            for p in parses
+        ]
 
 
 def _without_discarded(parses):

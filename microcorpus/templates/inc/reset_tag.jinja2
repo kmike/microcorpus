@@ -1,0 +1,17 @@
+<!-- Modal -->
+<div class="modal-dialog">
+    <form class="modal-content form-horizontal"
+          action="{{ url_for("token_reset_tag", sentence_name=sentence_name, token_index=token_index) }}"
+          data-tokenid={{ token_index }} method="POST">
+        <div class="modal-header">
+            <h4>Сбросить разборы для <i>{{ token }}</i>?</h4>
+        </div>
+        <div class="modal-body">
+            <p>Токен будет разобран с помошью pymorphy2.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+            <input type="submit" class="btn btn-danger" value="Применить">
+        </div>
+    </form>
+</div><!-- /.modal-dialog -->
