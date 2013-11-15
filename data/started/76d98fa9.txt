@@ -8,7 +8,7 @@
 ,               PNCT
 —               PNCT
 подумал         VERB,perf,intr masc,sing,past,indc
-Д               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / ADJS masc,sing / ADVB
+Д               UNKN
 .               PNCT
 Э               INTJ
 .               PNCT
