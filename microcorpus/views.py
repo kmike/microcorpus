@@ -182,6 +182,10 @@ CSS_SUFFIXES = {
 }
 
 
+def _grammemes_sort_key(gr):
+    return (not gr.isupper(), gr)
+
+
 def _token_info_dict(idx, token_info):
     ambig_grammemes = token_info.grammeme_classes[ParseInfo.AMBIG]
     all_grammemes = set()
@@ -204,7 +208,7 @@ def _token_info_dict(idx, token_info):
             for p in token_info.parses
         ],
         'grammemes': {
-            cls: sorted(morph.lat2cyr(g) for g in gr)
+            cls: sorted([morph.lat2cyr(g) for g in gr], key=_grammemes_sort_key)
             for cls, gr in token_info.grammeme_classes.items()
         },
         'tag_is_predicted': token_info.tag_is_predicted(),
