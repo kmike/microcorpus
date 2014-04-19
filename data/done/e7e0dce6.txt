@@ -1,4 +1,4 @@
-3               NUMB
+3               NUMB,intg
 .               PNCT
 Иностранные     ADJF plur,nomn
 граждане        NOUN,anim,masc plur,nomn

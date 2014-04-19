@@ -1,4 +1,4 @@
-Эти             ADJF,Apro plur,nomn
+Эти             ADJF,Apro,Subx,Anph plur,nomn
 поездки         NOUN,inan,femn plur,nomn
 совершаются     VERB,impf,intr plur,3per,pres,indc
 иногда          ADVB
@@ -17,7 +17,7 @@
 для             PREP
 пастырского     ADJF neut,sing,gent
 назидания       NOUN,inan,neut sing,gent
-их              NPRO,3per plur,accs
+их              NPRO,3per,Anph plur,accs
 и               CONJ
 требоисправления NOUN,inan,neut sing,gent
 »               PNCT

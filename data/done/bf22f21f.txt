@@ -9,7 +9,7 @@
 проект          NOUN,inan,masc sing,nomn
 ,               PNCT
 на              PREP
-его             ADJF,Fixd,Apro femn,sing,loct
+его             ADJF,Fixd,Apro,Anph femn,sing,loct
 основе          NOUN,inan,femn sing,loct
 на              PREP
 самом           ADJF,Apro neut,sing,loct

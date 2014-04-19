@@ -9,7 +9,7 @@
 ,               PNCT
 вышел           VERB,perf,intr masc,sing,past,indc
 на              PREP
-третье          ADJF,Subx,Anum neut,sing,accs
+третье          ADJF,Anum neut,sing,accs
 место           NOUN,inan,neut sing,accs
 в               PREP
 мире            NOUN,inan,masc sing,loct

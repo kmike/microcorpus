@@ -1,7 +1,7 @@
 Шум             NOUN,inan,masc sing,nomn
 затих           VERB,perf,intr masc,sing,past,indc
 ,               PNCT
-он              NPRO,masc,3per sing,nomn
+он              NPRO,masc,3per,Anph sing,nomn
 вышел           VERB,perf,intr masc,sing,past,indc
 на              PREP
 телеподмостки   NOUN,inan,GNdr,Pltm plur,accs

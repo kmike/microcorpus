@@ -2,7 +2,7 @@
 Меня            NPRO,1per sing,accs
 поражает        VERB,impf,tran sing,3per,pres,indc
 и               CONJ
-то              ADJF,Apro neut,sing,nomn
+то              ADJF,Apro,Subx,Anph neut,sing,nomn
 ,               PNCT
 насколько       ADVB,Ques
 молодёжь        NOUN,inan,femn sing,nomn

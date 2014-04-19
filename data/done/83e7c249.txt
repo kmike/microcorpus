@@ -1,7 +1,7 @@
 —               PNCT
 Так             PRCL
 скажите         VERB,perf,tran plur,impr,excl
-ему             NPRO,masc,3per sing,datv
+ему             NPRO,masc,3per,Anph sing,datv
 ,               PNCT
 если            CONJ
 увидите         VERB,perf,tran plur,2per,futr,indc

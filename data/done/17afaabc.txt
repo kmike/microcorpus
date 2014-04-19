@@ -1,6 +1,6 @@
 В               PREP
 августе         NOUN,inan,masc sing,loct
-2004            NUMB
+2004            NUMB,intg
 года            NOUN,inan,masc sing,gent
 83              NUMB,intg
 -               PNCT

@@ -14,7 +14,7 @@
 ,               PNCT
 обосновать      INFN,perf,tran
 необходимость   NOUN,inan,femn sing,accs
-ее              ADJF,Fixd,Apro neut,sing,gent
+ее              ADJF,Fixd,Apro,Anph neut,sing,gent
 решения         NOUN,inan,neut sing,gent
 ,               PNCT
 т               UNKN

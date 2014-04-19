@@ -9,7 +9,7 @@
 ,               PNCT
 что             CONJ
 видно           PRED,pres
-его             NPRO,masc,3per sing,gent
+его             NPRO,masc,3per,Anph sing,gent
 было            VERB,impf,intr neut,sing,past,indc
 только          PRCL
 в               PREP

@@ -6,7 +6,7 @@
 отношением      NOUN,inan,neut sing,ablt
 учителя         NOUN,anim,masc sing,gent
 к               PREP
-ее              ADJF,Fixd,Apro plur,datv
+ее              ADJF,Fixd,Apro,Anph plur,datv
 познаниям       NOUN,inan,neut plur,datv
 ,               PNCT
 опустила        VERB,perf,tran femn,sing,past,indc

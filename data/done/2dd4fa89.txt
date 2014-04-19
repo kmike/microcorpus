@@ -21,6 +21,6 @@
 самым           ADJF,Apro neut,sing,ablt
 масштабным      ADJF,Qual neut,sing,ablt
 произведением   NOUN,inan,neut sing,ablt
-той             ADJF,Apro femn,sing,gent
+той             ADJF,Apro,Subx,Anph femn,sing,gent
 эпохи           NOUN,inan,femn sing,gent
 .               PNCT

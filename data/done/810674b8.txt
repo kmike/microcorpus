@@ -2,7 +2,7 @@
 с               PREP
 исковыми        ADJF plur,ablt
 требованиями    NOUN,inan,neut plur,ablt
-он              NPRO,masc,3per sing,nomn
+он              NPRO,masc,3per,Anph sing,nomn
 обращаться      INFN,impf,intr
 не              PRCL
 будет           VERB,impf,intr sing,3per,futr,indc

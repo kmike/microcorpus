@@ -27,5 +27,5 @@
 а               CONJ
 как             CONJ
 минимум         NOUN,inan,masc sing,nomn
-третьим         ADJF,Subx,Anum masc,sing,ablt
+третьим         ADJF,Anum masc,sing,ablt
 .               PNCT

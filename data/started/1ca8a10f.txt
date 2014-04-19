@@ -12,14 +12,14 @@
 ,               PNCT
 размеров        NOUN,inan,masc plur,gent
 и               CONJ
-их              ADJF,Fixd,Apro neut,sing,gent
+их              ADJF,Fixd,Apro,Anph neut,sing,gent
 отклонений      NOUN,inan,neut plur,gent
 ,               PNCT
 шероховатости   NOUN,inan,femn sing,gent
 и               CONJ
-т               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / ADJS,Qual masc,sing / ADVB / PRTS,perf,past,pssv masc,sing / VERB,perf,intr,Impe sing,futr,indc
+т               UNKN
 .               PNCT
-п               NOUN,inan,masc sing,nomn / NOUN,inan,masc sing,accs / VERB,perf,intr masc,sing,past,indc / ADJS,Qual masc,sing
+п               UNKN
 .               PNCT
 )               PNCT
 ,               PNCT
@@ -28,6 +28,6 @@
 взаимного       ADJF,Qual neut,sing,gent
 расположения    NOUN,inan,neut sing,gent
 поверхностей    NOUN,inan,femn plur,gent
-их              ADJF,Fixd,Apro plur,gent
+их              ADJF,Fixd,Apro,Anph plur,gent
 элементов       NOUN,inan,masc plur,gent
 .               PNCT

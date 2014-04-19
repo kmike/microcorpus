@@ -1,4 +1,4 @@
-Она             NPRO,femn,3per sing,nomn
+Она             NPRO,femn,3per,Anph sing,nomn
 получает        VERB,impf,tran sing,3per,pres,indc
 трафик          NOUN,inan,masc sing,accs
 ,               PNCT
@@ -11,7 +11,7 @@
 изданиями       NOUN,inan,neut plur,ablt
 ,               PNCT
 круг            NOUN,inan,masc sing,nomn
-которых         ADJF,Apro plur,gent
+которых         ADJF,Apro,Subx,Anph plur,gent
 оттачивался     VERB,impf,intr masc,sing,past,indc
 долгие          ADJF,Qual inan,plur,accs
 годы            NOUN,inan,masc plur,accs

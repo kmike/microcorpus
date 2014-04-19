@@ -1,4 +1,4 @@
-3               NUMB
+3               NUMB,intg
 .               PNCT
 Обязанности     NOUN,inan,femn plur,nomn
 ,               PNCT

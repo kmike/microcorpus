@@ -4,10 +4,10 @@
 стесняться      INFN,impf,intr
 ,               PNCT
 что             CONJ
-она             NPRO,femn,3per sing,nomn
+она             NPRO,femn,3per,Anph sing,nomn
 кое-что         NPRO,neut sing,accs
 знает           VERB,impf,tran sing,3per,pres,indc
 о               PREP
-своих           ADJF,Apro plur,loct
+своих           ADJF,Apro,Anph plur,loct
 пользователях   NOUN,anim,masc plur,loct
 .               PNCT

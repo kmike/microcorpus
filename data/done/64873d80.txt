@@ -4,7 +4,7 @@
 находится       VERB,impf,intr sing,3per,pres,indc
 Великобритания  NOUN,inan,femn,Sgtm,Geox sing,nomn
 ,               PNCT
-ее              ADJF,Fixd,Apro masc,sing,nomn
+ее              ADJF,Fixd,Apro,Anph masc,sing,nomn
 показатель      NOUN,inan,masc sing,nomn
 —               PNCT
 29,3            NUMB,real

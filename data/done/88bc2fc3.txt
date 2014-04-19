@@ -1,0 +1,8 @@
+—               PNCT
+Это             PRCL
+,               PNCT
+скорее          CONJ,Prnt
+,               PNCT
+лицо            NOUN,inan,neut sing,nomn
+молодёжи        NOUN,inan,femn sing,gent
+.               PNCT

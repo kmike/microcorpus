@@ -12,6 +12,6 @@
 некоторые       ADJF,Apro plur,nomn
 исполнители     NOUN,anim,masc plur,nomn
 расширяют       VERB,impf,tran plur,3per,pres,indc
-этот            ADJF,Apro inan,masc,sing,accs
+этот            ADJF,Apro,Subx,Anph inan,masc,sing,accs
 набор           NOUN,inan,masc sing,accs
 .               PNCT

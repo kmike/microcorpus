@@ -9,17 +9,17 @@
 сопротивлением  NOUN,inan,neut sing,ablt
 властей         NOUN,inan,femn plur,gent
 и               CONJ
-она             NPRO,femn,3per sing,nomn
+она             NPRO,femn,3per,Anph sing,nomn
 должна          ADJS femn,sing
 выбрать         INFN,perf,tran
 для             PREP
-себя            NPRO sing,gent
+себя            NPRO,Anph sing,gent
 :               PNCT
 либо            CONJ
-она             NPRO,femn,3per sing,nomn
+она             NPRO,femn,3per,Anph sing,nomn
 будет           VERB,impf,intr sing,3per,futr,indc
 преодолевать    INFN,impf,tran
-это             ADJF,Apro neut,sing,accs
+это             ADJF,Apro,Subx,Anph neut,sing,accs
 сопротивление   NOUN,inan,neut sing,accs
 и               CONJ
 оставаться      INFN,impf,intr
@@ -35,6 +35,6 @@
 тогда           ADVB,Dmns
 забыть          INFN,perf,tran
 о               PREP
-своей           ADJF,Apro femn,sing,loct
+своей           ADJF,Apro,Anph femn,sing,loct
 независимости   NOUN,inan,femn sing,loct
 .               PNCT

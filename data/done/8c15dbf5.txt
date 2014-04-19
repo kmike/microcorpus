@@ -13,7 +13,7 @@
 писатель        NOUN,anim,masc sing,nomn
 незамедлительно ADVB
 снимает         VERB,impf,tran sing,3per,pres,indc
-его             NPRO,masc,3per sing,accs
+его             NPRO,masc,3per,Anph sing,accs
 ,               PNCT
 обнаруживая     GRND,impf,tran pres
 точно           ADVB
@@ -22,5 +22,5 @@
 ,               PNCT
 надетый         PRTF,perf,tran,past,pssv inan,masc,sing,accs
 под             PREP
-ним             NPRO,masc,3per sing,ablt,Af-p
+ним             NPRO,masc,3per,Anph sing,ablt,Af-p
 .               PNCT

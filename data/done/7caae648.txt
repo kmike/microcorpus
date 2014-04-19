@@ -1,5 +1,5 @@
 Сейчас          ADVB
-она             NPRO,femn,3per sing,nomn
+она             NPRO,femn,3per,Anph sing,nomn
 помолвлена      PRTS,perf,past,pssv femn,sing
 с               PREP
 футболистом     NOUN,anim,masc sing,ablt

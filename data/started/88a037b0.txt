@@ -5,7 +5,7 @@
 года            NOUN,inan,masc sing,gent / NOUN,inan,masc plur,nomn,Infr / NOUN,inan,masc plur,accs,Infr
 улица           NOUN,inan,femn sing,nomn
 приняла         VERB,perf,tran femn,sing,past,indc
-своё            ADJF,Apro neut,sing,accs / ADJF,Apro neut,sing,nomn
+своё            ADJF,Apro,Anph neut,sing,accs / ADJF,Apro,Anph neut,sing,nomn
 нынешнее        ADJF neut,sing,nomn / ADJF neut,sing,accs / COMP
 название        NOUN,inan,neut sing,nomn / NOUN,inan,neut sing,accs
 —               PNCT

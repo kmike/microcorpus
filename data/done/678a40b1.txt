@@ -12,7 +12,7 @@
 осознавало      VERB,impf,tran neut,sing,past,indc
 общественную    ADJF femn,sing,accs
 опасность       NOUN,inan,femn sing,accs
-своих           ADJF,Apro plur,gent
+своих           ADJF,Apro,Anph plur,gent
 действий        NOUN,inan,neut plur,gent
 (               PNCT
 бездействия     NOUN,inan,neut sing,gent
@@ -28,6 +28,6 @@
 последствий     NOUN,inan,neut plur,gent
 и               CONJ
 желало          VERB,impf,tran neut,sing,past,indc
-их              ADJF,Fixd,Apro neut,sing,gent
+их              ADJF,Fixd,Apro,Anph neut,sing,gent
 наступления     NOUN,inan,neut sing,gent
 .               PNCT

@@ -3,6 +3,6 @@
 ,               PNCT
 словно          CONJ
 лихорадка       NOUN,inan,femn sing,nomn
-его             NPRO,masc,3per sing,accs
+его             NPRO,masc,3per,Anph sing,accs
 колотила        VERB,impf,tran femn,sing,past,indc
 .               PNCT

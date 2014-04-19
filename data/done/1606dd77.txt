@@ -3,7 +3,7 @@
 ,               PNCT
 что             CONJ
 большая         ADJF femn,sing,nomn
-его             ADJF,Fixd,Apro femn,sing,nomn
+его             ADJF,Fixd,Apro,Anph femn,sing,nomn
 часть           NOUN,inan,femn sing,nomn
 выбрасывается   VERB,impf,intr sing,3per,pres,indc
 за              PREP

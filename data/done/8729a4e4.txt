@@ -1,6 +1,6 @@
 Ему             NPRO,masc,3per sing,datv
 много           ADVB,Prdx
-этих            ADJF,Apro plur,gent
+этих            ADJF,Apro,Subx,Anph plur,gent
 самых           ADJF,Apro plur,gent
 гаек            NOUN,inan,femn plur,gent
 требуется       VERB,impf,intr sing,3per,pres,indc

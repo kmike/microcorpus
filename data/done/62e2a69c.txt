@@ -1,5 +1,5 @@
 Химии           NOUN,inan,femn sing,datv
-она             NPRO,femn,3per sing,nomn
+она             NPRO,femn,3per,Anph sing,nomn
 учила           VERB,impf,tran femn,sing,past,indc
 великолепно     ADVB
 (               PNCT

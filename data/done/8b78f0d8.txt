@@ -19,7 +19,7 @@
 многих          NPRO plur,gent
 ,               PNCT
 в               PREP
-том             ADJF,Apro neut,sing,loct
+том             ADJF,Apro,Subx,Anph neut,sing,loct
 числе           NOUN,inan,neut sing,loct
 вполне          ADVB
 адекватных      ADJF,Qual plur,gent

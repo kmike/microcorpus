@@ -1,5 +1,5 @@
 К               PREP
-тому            ADJF,Apro masc,sing,datv
+тому            ADJF,Apro,Subx,Anph masc,sing,datv
 же              PRCL
 я               NPRO,1per sing,nomn
 не              PRCL
@@ -10,11 +10,11 @@
 кафедры         NOUN,inan,femn sing,gent
 плетусь         VERB,impf,intr sing,1per,pres,indc
 с               PREP
-тем             ADJF,Apro masc,sing,ablt
+тем             ADJF,Apro,Subx,Anph masc,sing,ablt
 же              PRCL
 энтузиазмом     NOUN,inan,masc sing,ablt
 ,               PNCT
-который         ADJF,Apro inan,masc,sing,accs
+который         ADJF,Apro,Subx,Anph inan,masc,sing,accs
 у               PREP
 меня            NPRO,1per sing,gent
 обычно          ADVB

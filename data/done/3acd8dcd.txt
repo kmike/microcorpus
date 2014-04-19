@@ -1,6 +1,6 @@
 Должен          ADJS masc,sing
 ли              PRCL
-он              NPRO,masc,3per sing,nomn
+он              NPRO,masc,3per,Anph sing,nomn
 уметь           INFN,impf,intr
 дирижировать    INFN,impf,intr
 ,               PNCT

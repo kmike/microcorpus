@@ -1,7 +1,7 @@
 Проблема        NOUN,inan,femn sing,nomn
 также           CONJ
 осложняется     VERB,impf,intr sing,3per,pres,indc
-тем             ADJF,Apro masc,sing,ablt
+тем             ADJF,Apro,Subx,Anph masc,sing,ablt
 ,               PNCT
 что             CONJ
 вирус           NOUN,inan,masc sing,nomn

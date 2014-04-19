@@ -1,4 +1,4 @@
-Он              NPRO,masc,3per sing,nomn
+Он              NPRO,masc,3per,Anph sing,nomn
 просил          VERB,impf,tran masc,sing,past,indc
 у               PREP
 вас             NPRO,2per plur,gent

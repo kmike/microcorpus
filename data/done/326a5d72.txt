@@ -11,7 +11,7 @@
 человек         NOUN,anim,masc plur,gent
 ,               PNCT
 с               PREP
-которыми        ADJF,Apro plur,ablt
+которыми        ADJF,Apro,Subx,Anph plur,ablt
 я               NPRO,1per sing,nomn
 общаюсь         VERB,impf,intr sing,1per,pres,indc
 .               PNCT

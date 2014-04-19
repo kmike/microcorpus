@@ -1,20 +1,20 @@
 Радость         NOUN,inan,femn sing,nomn
-его             ADJF,Fixd,Apro masc,sing,nomn
+его             ADJF,Fixd,Apro,Anph masc,sing,nomn
 была            VERB,impf,intr femn,sing,past,indc
 так             ADVB,Dmns
 велика          ADJS,Qual femn,sing
 ,               PNCT
 что             CONJ
 ум              NOUN,inan,masc sing,nomn
-его             ADJF,Fixd,Apro masc,sing,nomn
+его             ADJF,Fixd,Apro,Anph masc,sing,nomn
 отдался         VERB,perf,intr masc,sing,past,indc
-этому           ADJF,Apro neut,sing,datv
+этому           ADJF,Apro,Subx,Anph neut,sing,datv
 чуду            NOUN,inan,neut sing,datv
 всецело         ADVB
 ,               PNCT
 и               CONJ
 у               PREP
-него            NPRO,masc,3per sing,gent,Af-p
+него            NPRO,masc,3per,Anph sing,gent,Af-p
 явилось         VERB,perf,intr neut,sing,past,indc
 много           ADVB,Prdx
 удивительных    ADJF,Qual plur,gent
@@ -22,11 +22,11 @@
 о               PREP
 чудесах         NOUN,inan,neut plur,loct
 ,               PNCT
-которые         ADJF,Apro plur,nomn
+которые         ADJF,Apro,Subx,Anph plur,nomn
 ,               PNCT
 представив      GRND,perf,tran past
 для             PREP
-него            NPRO,masc,3per sing,gent,Af-p
+него            NPRO,masc,3per,Anph sing,gent,Af-p
 религию         NOUN,inan,femn sing,accs
 в               PREP
 новом           ADJF,Qual neut,sing,loct
@@ -39,7 +39,7 @@
 ,               PNCT
 всегда          ADVB
 питаемые        PRTF,impf,tran,pres,pssv inan,plur,accs
-им              NPRO,masc,3per sing,ablt
+им              NPRO,masc,3per,Anph sing,ablt
 к               PREP
 предметам       NOUN,inan,masc plur,datv
 веры            NOUN,inan,femn sing,gent

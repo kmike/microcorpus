@@ -1,8 +1,0 @@
-—               PNCT
-Это             PRCL / NPRO,neut sing,nomn / NPRO,neut sing,accs / ADJF,Apro neut,sing,accs / ADJF,Apro neut,sing,nomn
-,               PNCT
-скорее          CONJ,Prnt
-,               PNCT
-лицо            NOUN,inan,neut sing,nomn / NOUN,anim,neut sing,nomn
-молодёжи        NOUN,inan,femn sing,gent
-.               PNCT
