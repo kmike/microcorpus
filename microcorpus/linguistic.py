@@ -14,7 +14,7 @@ def tag_prob(token, tag):
     return morph.prob_estimator.p_t_given_w.prob(token.lower(), tag)
 
 
-def _token_is_unknown(token):
+def _tag_is_predicted(token):
     tests = [morph.word_is_known, shapes.is_punctuation, str.isdigit]
     return not any(test(token) for test in tests)
 
@@ -59,8 +59,8 @@ class TokenInfo:
     def tag_probability(self, tag):
         return tag_prob(self.token, tag)
 
-    def is_unknown(self):
-        return _token_is_unknown(self.token)
+    def tag_is_predicted(self):
+        return _tag_is_predicted(self.token)
 
     @property
     def grammeme_classes(self):

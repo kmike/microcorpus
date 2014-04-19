@@ -207,7 +207,7 @@ def _token_info_dict(idx, token_info):
             cls: sorted(morph.lat2cyr(g) for g in gr)
             for cls, gr in token_info.grammeme_classes.items()
         },
-        'is_unknown': token_info.is_unknown(),
+        'tag_is_predicted': token_info.tag_is_predicted(),
         'help_links': help_links,
     }
     return res
