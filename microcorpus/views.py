@@ -12,11 +12,13 @@ storage = SentenceStorage(DATA_PATH, morph)
 
 @app.route('/')
 def index():
+    """ Main page with project info """
     return render_template('index.jinja2')
 
 
 @app.route('/parse/')
 def pymorphy2_parse():
+    """ Interface for parsing a word using pymorphy2 """
     words = request.args.get('w', '')
     parses = [(w, morph.parse(w)) for w in tokenize(words)]
     return render_template('parse.jinja2', words=words, parses=parses,
@@ -25,12 +27,14 @@ def pymorphy2_parse():
 
 @app.route('/random-task/')
 def sentence_random():
+    """ Redirect to a random task """
     task = random.choice(storage.started_tasks())
     return redirect(url_for("sentence", name=task))
 
 
 @app.route('/started/<name>/')
 def sentence(name):
+    """ The page for the annotation of a started sentence """
     sent = _started_sent_or_404(name)
 
     prev_task, next_task = storage.prev_next_started(name)
@@ -53,6 +57,7 @@ def sentence(name):
 
 @app.route('/started/<name>/done', methods=["POST"])
 def sentence_done(name):
+    """ Endpoint for marking sentence done """
     prev_task, next_task = storage.prev_next_started(name)
     storage.finish(name)
     return redirect(url_for("sentence", name=next_task))
@@ -60,12 +65,14 @@ def sentence_done(name):
 
 @app.route('/started/<name>/progress/')
 def sentence_progress_percent(name):
+    """ Endpoint with sentence progress percent """
     tokens = _sent_tokens(_started_sent_or_404(name))
     return str(_unambig_percent(tokens))
 
 
 @app.route('/started/<name>/text/')
 def sentence_text(name):
+    """ Endpoint that returns html block with sentence text """
     tokens = _sent_tokens(_started_sent_or_404(name))
     return render_template("inc/sentence_text.jinja2",
         tokens=tokens,
@@ -75,6 +82,10 @@ def sentence_text(name):
 
 @app.route('/started/<sentence_name>/<int:token_index>/', methods=['GET', 'POST'])
 def token_tag(sentence_name, token_index):
+    """
+    AJAX endpoint that is used to get a tag or set it
+    by choosing from one of the suggested options.
+    """
     if not request.is_xhr:
         return abort(400)
 
@@ -99,6 +110,7 @@ def token_tag(sentence_name, token_index):
 
 @app.route('/started/<sentence_name>/<int:token_index>/raw/', methods=['POST', 'GET'])
 def token_raw_tag(sentence_name, token_index):
+    """ A page for entering a tag for token manually """
     sent = _started_sent_or_404(sentence_name)
     token_info = sent[token_index]
 
@@ -123,11 +135,16 @@ def token_raw_tag(sentence_name, token_index):
 
 @app.route('/started/<sentence_name>/<int:token_index>/reset/', methods=['POST', 'GET'])
 def token_reset_tag(sentence_name, token_index):
+    """
+    An endpoint for resetting token annotations (discarding all
+    current variants and re-parsing the token using pymorphy2).
+    """
     sent = _started_sent_or_404(sentence_name)
     token_info = sent[token_index]
 
     if request.method == 'GET':
-        return render_template('inc/reset_tag.jinja2',
+        # confirmation dialog
+        return render_template('inc/reset_tag_confirm.jinja2',
            sentence_name=sentence_name,
            token_index=token_index,
            token=token_info.token,
