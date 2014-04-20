@@ -1,0 +1,23 @@
+В               PREP
+1928            NUMB,intg
+г               NOUN,inan,masc,Fixd,Abbr sing,loc2
+.               PNCT
+карьере         NOUN,inan,femn sing,datv
+Малхолланда     NOUN,anim,femn,Name sing,nomn
+пришёл          VERB,perf,intr masc,sing,past,indc
+внезапный       ADJF,Qual masc,sing,nomn
+конец           NOUN,inan,masc sing,nomn
+:               PNCT
+через           PREP
+несколько       NUMR inan,accs
+часов           NOUN,inan,masc plur,gent
+после           PREP
+инспектирования NOUN,inan,neut sing,gent
+им              NPRO,masc,3per,Anph sing,ablt
+дамбы           NOUN,inan,femn sing,gent
+св              ADJF,Subx,Qual,Abbr masc,sing,gent
+.               PNCT
+Франциска       NOUN,anim,masc,Name sing,gent
+её              NPRO,femn,3per,Anph sing,accs
+прорвало        VERB,perf,tran neut,sing,past,indc
+.               PNCT

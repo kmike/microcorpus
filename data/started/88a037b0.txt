@@ -2,13 +2,13 @@
 25              NUMB,intg
 декабря         NOUN,inan,masc sing,gent
 1934            NUMB,intg
-года            NOUN,inan,masc sing,gent / NOUN,inan,masc plur,nomn,Infr / NOUN,inan,masc plur,accs,Infr
+года            NOUN,inan,masc sing,gent
 улица           NOUN,inan,femn sing,nomn
 приняла         VERB,perf,tran femn,sing,past,indc
-своё            ADJF,Apro,Anph neut,sing,accs / ADJF,Apro,Anph neut,sing,nomn
-нынешнее        ADJF neut,sing,nomn / ADJF neut,sing,accs / COMP
-название        NOUN,inan,neut sing,nomn / NOUN,inan,neut sing,accs
+своё            ADJF,Apro,Anph neut,sing,accs
+нынешнее        ADJF neut,sing,accs
+название        NOUN,inan,neut sing,accs
 —               PNCT
 улица           NOUN,inan,femn sing,nomn
-Кирова          NOUN,inan,masc,Geox sing,gent / NOUN,anim,masc,Sgtm,Surn sing,gent / NOUN,inan,neut,Sgtm,Geox sing,gent
+Кирова          NOUN,anim,masc,Sgtm,Surn sing,gent
 .               PNCT

@@ -17,9 +17,9 @@
 ее              ADJF,Fixd,Apro,Anph neut,sing,gent
 решения         NOUN,inan,neut sing,gent
 ,               PNCT
-т               UNKN
+т               PRCL,Abbr
 .               PNCT
-е               NOUN,inan,neut,Sgtm,Fixd sing,nomn / NOUN,inan,neut,Sgtm,Fixd sing,gent / NOUN,inan,neut,Sgtm,Fixd sing,ablt / NOUN,inan,neut,Sgtm,Fixd sing,accs / NOUN,inan,neut,Sgtm,Fixd sing,datv / NOUN,inan,neut,Sgtm,Fixd sing,loct
+е               VERB,impf,intr,Fixd,Abbr sing,3per,pres,indc
 .               PNCT
 сформулировать  INFN,perf,tran
 техническое     ADJF neut,sing,accs
