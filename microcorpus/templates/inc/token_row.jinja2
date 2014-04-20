@@ -25,12 +25,22 @@
 </td>
 <td class="disambig-tags">
     {%- for norm_form, tag, prob, orig, cls in info["tags"] -%}
-        <button class="btn btn-{{ cls }} btn-xs"
-{#                data-toggle="tooltip"#}
-                title="{{ norm_form }} {{ orig }}: {{ prob }}"
-                data-origname="{{ orig }}">
-            {% if not info["same_normal_forms"] %}{{ norm_form }}: {% endif %}{{ tag }}
-        </button>
+        {% if tag=="UNKN" %}
+            <button class="btn btn-warning btn-xs"
+                    title="задать вручную"
+                    href="{{ info["index"] }}/raw/"
+                    data-target="#disambigRawTagsModalContainer"
+                    data-toggle="modal">
+                {{ tag }}
+            </button>
+        {% else %}
+            <button class="btn btn-{{ cls }} btn-xs"
+    {#                data-toggle="tooltip"#}
+                    title="{{ norm_form }} {{ orig }}: {{ prob }}"
+                    data-origname="{{ orig }}">
+                {% if not info["same_normal_forms"] %}{{ norm_form }}: {% endif %}{{ tag }}
+            </button>
+        {% endif %}
     {% endfor %}
 </td>
 <td>
@@ -45,7 +55,7 @@
        <a href="{{ info["index"] }}/raw/" class="btn btn-info"
           data-target="#disambigRawTagsModalContainer"
           data-toggle="modal">
-           <i class="fa fa-wrench" title="ручное редактирование"></i>
+           <i class="fa fa-wrench" title="задать вручную"></i>
        </a>
        <a href="{{ info["index"] }}/reset/" class="btn btn-info"
           data-target="#disambigResetTagsModalContainer"

@@ -187,6 +187,10 @@ def _grammemes_sort_key(gr):
 
 
 def _token_info_dict(idx, token_info):
+    """
+    Return a dict with token information. This dict is then used
+    in templates to render the token row.
+    """
     ambig_grammemes = token_info.grammeme_classes[ParseInfo.AMBIG]
     all_grammemes = set()
     for gr in token_info.grammeme_classes.values():
