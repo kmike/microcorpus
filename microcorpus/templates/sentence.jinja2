@@ -17,6 +17,7 @@
         }
 
         function setupDisambiguationInterface(){
+            /* Add event handlers to handle clicks on grammemes and tags */
 
             /*
             $('#tokens-table').tooltip({
@@ -30,10 +31,8 @@
                 if ($btn.hasClass('btn-primary')) {
                     return;
                 }
-                var tokenid = $btn.parents("tr").data("tokenid").toString();
-                var url = tokenid + '/';
-                var data;
 
+                var data;
                 if ($btn.parents(".disambig-grammemes").length){
                     // user selected a grammeme
                     data = {'grammeme': $btn.text()};
@@ -43,7 +42,9 @@
                     data = {'tag': $btn.data("origname")};
                 }
 
-                $.post(url, data, function(response){
+                var tokenid = $btn.parents("tr").data("tokenid").toString();
+                var editTokenUrl = tokenid + '/';
+                $.post(editTokenUrl, data, function(response){
                     $btn.parents("tr").html(response);
                     reloadSentenceText();
                 });
@@ -51,41 +52,46 @@
         }
 
         function setupTokenHighlighting(){
-            var s = $("#sentence-text");
+            /* Highlight token in the sentence when mouse is over token row */
+
+            var $sent = $("#sentence-text");
 
             function _token(tr){
-                return s.find("span[data-token='" + $(tr).data("tokenid") + "']");
+                return $sent.find("span[data-token='" + $(tr).data("tokenid") + "']");
             }
 
             $('#tokens-table').on("mouseenter", "tr", function(ev){
-                var token = _token(this);
+                var $token = _token(this);
                 // var cls = token.hasClass('ambig') ? 'label-info': 'label-primary';
                 // token.addClass('label '+cls).removeClass('text-primary text-info');
-                token.addClass('token-hlt');
+                $token.addClass('token-hlt');
             }).on("mouseleave", "tr", function(ev){
-                var token = _token(this);
+                var $token = _token(this);
                 //var cls = token.hasClass('ambig') ? 'text-info': 'text-primary';
-                token.removeClass('token-hlt');
+                $token.removeClass('token-hlt');
             });
         }
 
         function setupStickySentence(){
-            var s = $("#sentence-text");
-            var pos = s.position();
+            /* Make sentence always visible when user scrolls down */
+
+            var $sent = $("#sentence-text");
+            var pos = $sent.position();
             $(window).scroll(function() {
                 var windowpos = $(window).scrollTop();
                 if (windowpos >= pos.top-19) {  // 19 == .well padding
-                    var h = s.height() + 19;
-                    s.addClass("stickdiv well");
+                    var h = $sent.height() + 19;
+                    $sent.addClass("stickdiv well");
                     $("#tokens-table").parents(".table").css("margin-top", h);
                 } else {
-                    s.removeClass("stickdiv well");
+                    $sent.removeClass("stickdiv well");
                     $("#tokens-table").parents(".table").css("margin-top", "");
                 }
             });
         }
 
         function modalClearOnHide($modalRoot){
+            /* reset Bootstrap modal window when it gets hidden */
             $modalRoot.on('hidden.bs.modal', function () {
                 $(this).data('bs.modal', null);
             });
