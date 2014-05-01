@@ -8,11 +8,11 @@
 ,               PNCT
 —               PNCT
 подумал         VERB,perf,intr masc,sing,past,indc
-Д               UNKN
+Д               NOUN,anim,masc,Sgtm,Name,Fixd,Abbr,Init sing,nomn
 .               PNCT
-Э               INTJ
+Э               NOUN,anim,masc,Sgtm,Name,Fixd,Abbr,Init sing,nomn
 .               PNCT
-Кнут            NOUN,inan,masc sing,accs / NOUN,inan,masc sing,nomn
+Кнут            NOUN,anim,masc,Sgtm,Surn sing,nomn
 и               CONJ
 решил           VERB,perf,tran masc,sing,past,indc
 научить         INFN,perf,tran

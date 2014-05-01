@@ -1,5 +1,5 @@
 flask == 0.10.1
-pymorphy2 == 0.5
+pymorphy2 == 0.6.1
 pymorphy2-dicts >= 2.4, <= 3.0
 dawg-python == 0.7
-opencorpora-tools == 0.4.3
+opencorpora-tools == 0.4.4

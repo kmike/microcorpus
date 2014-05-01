@@ -1,6 +1,6 @@
 ПУТИН           NOUN,anim,masc,Sgtm,Surn sing,nomn
-В               NOUN,anim,masc,Name,Fixd,Abbr sing,nomn
+В               NOUN,anim,masc,Sgtm,Name,Fixd,Abbr,Init sing,nomn
 .               PNCT
-В               NOUN,anim,masc,Patr,Fixd,Abbr sing,nomn
+В               NOUN,anim,masc,Sgtm,Patr,Fixd,Abbr,Init sing,nomn
 .               PNCT
 :               PNCT
