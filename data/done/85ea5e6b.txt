@@ -23,7 +23,7 @@
 дуэль           NOUN,inan,femn sing,accs
 (               PNCT
 отец            NOUN,anim,masc sing,nomn
-Санчес          NOUN,anim,GNdr,Ms-f,Fixd,Surn sing,nomn
+Санчес          NOUN,anim,masc,Sgtm,Surn sing,nomn
 )               PNCT
 :               PNCT
 главное         CONJ,Prnt
