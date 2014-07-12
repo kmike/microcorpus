@@ -7,7 +7,7 @@
 обмениваясь     GRND,impf,intr pres
 ссылками        NOUN,inan,femn plur,ablt
 с               PREP
-другими         ADJF,Apro plur,ablt
+другими         ADJF,Apro,Subx plur,ablt
 изданиями       NOUN,inan,neut plur,ablt
 ,               PNCT
 круг            NOUN,inan,masc sing,nomn
