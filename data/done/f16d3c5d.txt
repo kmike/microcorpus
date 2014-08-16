@@ -7,5 +7,5 @@
 суперокругом    NOUN,inan,masc sing,ablt
 »               PNCT
 с               PREP
-особым          ADJF neut,sing,ablt
+особым          ADJF masc,sing,ablt
 статусом        NOUN,inan,masc sing,ablt
