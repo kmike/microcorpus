@@ -17,9 +17,9 @@
 ,               PNCT
 шероховатости   NOUN,inan,femn sing,gent
 и               CONJ
-т               UNKN
+т               ADJF,Apro,Subx,Anph neut,sing,datv,Abbr / ADJF,Apro,Subx,Anph neut,sing,loct,Abbr / ADJF,Apro,Subx,Anph neut,sing,nomn,Abbr
 .               PNCT
-п               UNKN
+п               ADJF,Qual,Subx neut,sing,nomn,Abbr / ADJF,Qual,Subx neut,sing,accs,Abbr
 .               PNCT
 )               PNCT
 ,               PNCT
