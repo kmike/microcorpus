@@ -31,7 +31,7 @@ class ParseInfo:
 
     @property
     def normal_form(self):
-        for gr in ['Name', 'Surn', 'Patr', 'Geox', 'Orgn']:
+        for gr in ['Name', 'Surn', 'Patr', 'Geox', 'Orgn', 'Init']:
             if gr in self.tag:
                 return self.normal_form_raw.title()
         return self.normal_form_raw
