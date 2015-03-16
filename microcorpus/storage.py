@@ -72,7 +72,8 @@ class SentenceStorage:
         return prev_task, next_task
 
     def _task_list(self, stage):
-        return os.listdir(self._path(stage))
+        return [name for name in os.listdir(self._path(stage))
+                if not name.startswith('.')]
 
     @tolist
     def _load_raw(self, stage, name):

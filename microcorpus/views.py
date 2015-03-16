@@ -55,6 +55,34 @@ def sentence(name):
     )
 
 
+@app.route('/started/')
+def sentences_started():
+    """ A list of all started sentences """
+    tasks = storage.started_tasks()
+    sents = [
+        {
+            'tokens': storage.load('started', name),
+            'name': name,
+        }
+        for name in tasks
+    ]
+    return render_template('sentence_list.jinja2', sents=sents)
+
+
+@app.route('/done/')
+def sentences_done():
+    """ A list of all done sentences """
+    tasks = storage.done_tasks()
+    sents = [
+        {
+            'tokens': storage.load('done', name),
+            'name': name,
+        }
+        for name in tasks
+    ]
+    return render_template('sentence_list.jinja2', sents=sents)
+
+
 @app.route('/started/<name>/done', methods=["POST"])
 def sentence_done(name):
     """ Endpoint for marking sentence done """
