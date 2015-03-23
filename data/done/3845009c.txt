@@ -3,7 +3,7 @@
 г               NOUN,inan,masc,Fixd,Abbr sing,loc2
 .               PNCT
 карьере         NOUN,inan,femn sing,datv
-Малхолланда     NOUN,anim,femn,Name sing,nomn
+Малхолланда     NOUN,anim,masc,Sgtm,Surn sing,gent
 пришёл          VERB,perf,intr masc,sing,past,indc
 внезапный       ADJF,Qual masc,sing,nomn
 конец           NOUN,inan,masc sing,nomn
